@@ -51,3 +51,27 @@ img {
 main {
     background-color: #e2e2e2;
 }
+
+/** media queries **/
+
+@media only screen and (max-width: 1000px) {
+    .hamburger_label {
+        display: flex;
+        justify-content: flex-end;
+        cursor: pointer;
+        position: absolute;
+        
+        
+    }
+    
+    .nav-menu {
+        display: none;
+    }
+    .nav-menu a{
+        display: block;
+    }
+    #toggle:checked + .nav-menu {
+        display: flex;
+        flex-direction: column;
+    }
+}
