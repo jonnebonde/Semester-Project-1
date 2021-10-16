@@ -11,7 +11,8 @@
     padding: 0;
 }
 
-img {
+/** navigation **/
+.logo {
     width: 100px;
 } 
 
@@ -129,6 +130,14 @@ img {
 
 }
 
+/* main */
+
+.front_img {
+   max-width: 100%;
+
+}
+
+
 /** media queries **/
 
 @media screen and (max-width: 999px) {
@@ -146,7 +155,7 @@ img {
         right: -340px;
         background: var(--orange);
         width: 150px;
-        height: 100%;
+        height: 33%;
         padding-top: 65px;
 
     }
