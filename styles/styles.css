@@ -131,10 +131,9 @@
 }
 
 /* main */
-
-.front_img {
-   max-width: 100%;
-
+.front_img img {
+    width: 100%;
+    max-height: 400px;
 }
 
 
@@ -144,6 +143,7 @@
     .hamburger,
     .toggle-menu {
         display: block;
+        margin-right: 10px;
     }
    
     .menu {
