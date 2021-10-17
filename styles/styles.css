@@ -137,6 +137,17 @@
     justify-content: space-evenly;
     width: 100%;
 }
+.main_ctas a p {
+    text-decoration: none;
+    background-color: var(--blue);
+    color: var(--orange);
+    font-size: 1.8em;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+
+}
 .main_ctas img {
     max-height: 400px;
 }
@@ -145,11 +156,12 @@
     max-height: 350px;
 }
 
-.special_events-index {
+.special_events_cta p{
+    
     
 }
 
-.special_events-index img {
+.special_events_cta img {
     width: 100%;
 }
 
@@ -159,6 +171,17 @@
 }
 
 /** media queries **/
+
+@media screen and (min-width: 1920px) {
+    body {
+        max-width: 1920px;
+        margin: auto;
+    
+        
+    }
+}
+    
+}
 
 @media screen and (max-width: 1199px) {
     .navlogo_title p{
