@@ -142,6 +142,7 @@
     display: flex;
     justify-content: space-evenly;
     width: 100%;
+    
 }
 
 .main_ctas a {
@@ -150,11 +151,11 @@
 .main_ctas a p {
     background-color: var(--blue);
     color: var(--orange);
-    font-size: 3vh;
+    font-size: 1.6rem;
     font-weight: bold;
     text-align: center;
-    padding: 10px 0;
-    margin-top: 20px;
+    padding: 20px 0;
+    
 }
 
 .main_ctas img {
@@ -169,19 +170,36 @@
     opacity: 100%;
 }
 
-.special_events_cta p{
-    
+.special_events_cta,
+.exhibitions_cta,
+.visit_us_cta,
+.help_us_cta {
+    margin: 2vh;
+}
+.special_events_cta p {
     
 }
-
 .special_events_cta img {
     width: 100%;
 }
 
+.exhibitions_cta img {
+    width: 100%;
+}
 
-.specialevents {
+.visit_us_cta img {
+    width: 100%;
+}
+
+.help_us_cta img {
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
 
 }
+
 
 /** media queries **/
 
@@ -189,9 +207,7 @@
     main, footer {
         max-width: 1920px;
         margin: auto;
-    
-        
-    }
+        }
 }
     
 }
