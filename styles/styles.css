@@ -132,6 +132,12 @@
 
 /* main */
 
+.front_img img {
+    width: 100%;
+    max-height: 350px;
+    
+}
+
 .main_ctas {
     display: flex;
     justify-content: space-evenly;
@@ -144,7 +150,7 @@
 .main_ctas a p {
     background-color: var(--blue);
     color: var(--orange);
-    font-size: 1.8em;
+    font-size: 3vh;
     font-weight: bold;
     text-align: center;
     padding: 10px 0;
@@ -152,17 +158,15 @@
 }
 
 .main_ctas img {
-    max-height: 400px;
+    width: auto;
+    opacity: 90%;
+    
 }
 
-.main_ctas a p:hover {
+.main_ctas a :hover {
     color: var(--blue);
     background-color: var(--orange);
-}
-
-.front_img img {
-    width: 100%;
-    max-height: 350px;
+    opacity: 100%;
 }
 
 .special_events_cta p{
@@ -182,7 +186,7 @@
 /** media queries **/
 
 @media screen and (min-width: 1920px) {
-    body {
+    main, footer {
         max-width: 1920px;
         margin: auto;
     
