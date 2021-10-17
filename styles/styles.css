@@ -131,24 +131,44 @@
 }
 
 /* main */
-.front_img img {
+
+.main_ctas {
+    display: flex;
+    justify-content: space-evenly;
     width: 100%;
+}
+.main_ctas img {
     max-height: 400px;
 }
+.front_img img {
+    width: 100%;
+    max-height: 350px;
+}
 
+.special_events-index {
+    
+}
+
+.special_events-index img {
+    width: 100%;
+}
+
+
+.specialevents {
+
+}
 
 /** media queries **/
 
 @media screen and (max-width: 1199px) {
     .navlogo_title p{
-        font-size: 1.7em;
+        font-size: 1.4em;
     }
     .menu li a {
         font-size: 1em;
-        font-weight: ;
+        padding: 10px;
     }
 }
-
 
 
 @media screen and (max-width: 999px) {
