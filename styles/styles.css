@@ -203,16 +203,18 @@ h1 {
 .explore_text {
     display:flex;
     justify-content: center;
-    max-width: 80%;
-    margin: auto;
 
 }
-.explore_container1 {
-   
+
+.explore_text p {
+    word-wrap: ;
+}
+explore_container1 {
+   max-width: 875px;
 }
 
-.explore_container2 {
-    
+explore_container2 {
+    max-width: 875px;
 }
 
 .explore_for_kids,
