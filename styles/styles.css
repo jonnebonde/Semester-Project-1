@@ -141,7 +141,7 @@
 
 .main_ctas {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     width: 100%;
     
 }
@@ -200,6 +200,28 @@ h1 {
     font-size: 2.5vw;
 }
 
+.explore_text {
+    display:flex;
+    justify-content: center;
+    max-width: 80%;
+    margin: auto;
+
+}
+.explore_container1 {
+   
+}
+
+.explore_container2 {
+    
+}
+
+.explore_for_kids,
+.explore_for_ysc,
+.explore_for_teachers,
+.explore_for_researchers {
+    background-color: var(--orange);
+    margin: 1vw;
+}
 
 /** media queries **/
 
