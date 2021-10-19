@@ -139,12 +139,34 @@
     
 }
 
-.main_ctas {
+.main_ctas, .explore, .explore_container1, .explore_container2 {
+    width: 100%;
     display: flex;
     justify-content: center;
-    width: 100%;
+    flex-wrap: wrap;
+
+}
+
+.special_events_cta, .exhibitions_cta, .visit_us_cta, .help_us_cta {
+    position: relative;
+    flex: 1;
+    margin: 20px;
+   
+}
+
+.explore {
+    position: relative;
+    flex: 1;
+    margin: 10px;
     
 }
+.explore_for_kids, .explore_for_teachers, .explore_for_ysc, .explore_for_researchers {
+    position: relative;
+    flex: 1;
+    max-width: fit-content;
+}
+
+
 
 .main_ctas a {
     text-decoration: none;
@@ -171,12 +193,6 @@
     opacity: 100%;
 }
 
-.special_events_cta,
-.exhibitions_cta,
-.visit_us_cta,
-.help_us_cta {
-    margin: 2vh;
-}
 
 .special_events_cta img {
     width: 100%;
@@ -200,11 +216,7 @@ h1 {
     font-size: 2.5vw;
 }
 
-.explore_text {
-    display:flex;
-    justify-content: center;
 
-}
 
 .explore_text p {
     word-wrap: ;
@@ -266,5 +278,13 @@ media screen and (max-width: 1199px) {
         width: 100%;
     }
   
+    .special_events_cta, .exhibitions_cta, .visit_us_cta, .help_us_cta {
+        flex: 100%;
+        max-width: 150px ;
+    }
 
+    .explore_for_kids, .explore_for_teachers, .explore_for_ysc, .explore_for_researchers {
+        flex: 100%;
+        max-width: fit-content;
+    }
 }
