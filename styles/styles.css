@@ -215,19 +215,19 @@ h1 {
     font-size: 2.5vw;
 }
 
+h2 {
+    text-align: center;
+    color: var(--blue);
 
-
-.explore_text p {
-    word-wrap: ;
-}
-explore_container1 {
-   max-width: 875px;
 }
 
-explore_container2 {
-    max-width: 875px;
-}
+.explore_container1 p,
+.explore_container2 p {
+    font-size: 1.2vw;
+    color: var(--blue);
+    padding: 1vw;
 
+}
 .explore_for_kids,
 .explore_for_ysc,
 .explore_for_teachers,
@@ -235,6 +235,19 @@ explore_container2 {
     background-color: var(--orange);
     margin: 1vw;
 }
+
+.ysc_box {
+    display: flex;
+}
+
+.ysc_img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    padding: 10px;
+   
+}
+
 
 /** media queries **/
 
