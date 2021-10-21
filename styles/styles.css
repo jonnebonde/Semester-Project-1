@@ -32,7 +32,7 @@
     position: relative;
 }
 .navlogo_title p {
-    font-size: 2.8vw;
+    font-size: 2vw;
     color: var(--blue);
 }
 .navigation {
@@ -60,7 +60,7 @@
     display: block;
     padding: 10px 8px;
     transition: 0.3s;
-    font-size: 1.4vw;
+    font-size: 1.1vw;
     font-weight: bold;
     
 }
@@ -165,8 +165,6 @@
     flex: 1;
     max-width: fit-content;
 }
-
-
 
 .main_ctas a {
     text-decoration: none;
@@ -278,6 +276,9 @@ media screen and (max-width: 1199px) {
         width: 100%;
     }
   
+    .menu li a {
+        font-size: 2vw;
+    }
     .special_events_cta, .exhibitions_cta, .visit_us_cta, .help_us_cta {
         flex: 100%;
         max-width: 150px ;
