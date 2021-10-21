@@ -24,7 +24,7 @@
     justify-content: space-between;
     align-items: center;
     transition: 0.3s;
-    height: 12vw;
+    
     
 }
 .navlogo_title {
@@ -254,6 +254,11 @@ media screen and (max-width: 1199px) {
 
 @media screen and (max-width: 999px) {
     
+    .header {
+        height: 15vw;
+    }
+
+
     .navlogo_title p {
         font-size: 3vw;
     }
