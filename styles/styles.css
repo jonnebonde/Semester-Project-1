@@ -24,6 +24,7 @@
     justify-content: space-between;
     align-items: center;
     transition: 0.3s;
+    height: 12vw;
     
 }
 .navlogo_title {
