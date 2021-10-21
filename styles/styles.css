@@ -288,7 +288,7 @@ media screen and (max-width: 1199px) {
     }
   
     .menu li a {
-        font-size: 2vw;
+        font-size: 4vw;
     }
     .special_events_cta, .exhibitions_cta, .visit_us_cta, .help_us_cta {
         flex: 100%;
