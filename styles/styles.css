@@ -13,7 +13,7 @@
 
 /** navigation **/
 .logo {
-    width: 100px;
+    width: 8vw;
 } 
 
 .header {
@@ -252,6 +252,11 @@ media screen and (max-width: 1199px) {
 
 
 @media screen and (max-width: 999px) {
+    
+    .navlogo_title p {
+        font-size: 3vw;
+    }
+    
     .hamburger,
     .toggle-menu {
         display: block;
