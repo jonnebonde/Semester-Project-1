@@ -271,26 +271,34 @@ footer {
 }
 .sign_up {
     display: flex;
-    width: 100%;
+    width: 50%;
 }
 
 .sign_up input {
     background: var(--white);
     color: var(--blue);
     font-size: 1vw;
-    width: 30%;
+    width: 50%;
     height: 30px;
     padding: 5px;
+    margin: 0;
     border: 1px solid var(--blue);
   
 }
 .sign_up button {
     background: var(--blue);
     color: var(--orange);
-    width: 20%;
+    width: 10%;
 
 }
+.onclick {
+    color: var(--blue);
+}
 
+.social_media_icons a {
+    text-decoration: none;
+    color: var(--blue);
+}
 
 
 /** media queries **/
