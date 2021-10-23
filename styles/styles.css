@@ -249,11 +249,21 @@ h2 {
 footer {
     background: var(--orange);
     width: 100%;
+ 
+}
+.footer_contact {
+    padding: 10px
+}
+.footer_contact a {
+    color: var(--blue);
+    text-decoration: none;
+    font-size: 1.2vw;
 }
 
 .footer_contact p {
     color: var(--blue);
     font-size: 1.2vw;
+
 }
 
 /** media queries **/
