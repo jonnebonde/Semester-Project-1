@@ -242,9 +242,19 @@ h2 {
 }
 
 
+
+
 /** footer **/
 
+footer {
+    background: var(--orange);
+    width: 100%;
+}
 
+.footer_contact p {
+    color: var(--blue);
+    font-size: 1.2vw;
+}
 
 /** media queries **/
 
@@ -367,7 +377,6 @@ h2 {
     .special_events_cta a p {
         font-size: 3vw;
     }
-
 
     .Explore h1 {
         font-size: 8vw;
