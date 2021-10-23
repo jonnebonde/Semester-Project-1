@@ -139,7 +139,7 @@
 /* main */
 
 .flex_wrap {
-    margin: 3vh 10vh;
+    margin: 3vh 0vh;
 
 }
 
@@ -148,13 +148,14 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    align-items: center;
 
 }
 
 .special_events_cta, .exhibitions_cta, .visit_us_cta, .help_us_cta {
     position: relative;
     flex: 1;
-    margin: 2vh;
+    margin: 1vh;
    
 }
 
@@ -261,6 +262,10 @@ h2 {
         height: 15vw;
     }
 
+    .logo {
+        width: 14vw;
+    }
+
     .navlogo_title p {
         font-size: 5vw;
     }
@@ -293,7 +298,8 @@ h2 {
     }
     .special_events_cta, .exhibitions_cta, .visit_us_cta, .help_us_cta {
         flex: 100%;
-        max-width: 150px ;
+        max-width: 165px;
+        
     }
 
     .explore_for_kids, .explore_for_teachers, .explore_for_ysc, .explore_for_researchers {
@@ -305,24 +311,53 @@ h2 {
     }
 
     .flex_wrap {
-        margin: 0;
+        margin: 1vh;
     }
 
     .front_img img {
-        height: 200px;
+        height: 150px;
     }
-
+    .main_ctas {
+        justify-content: space-around;
+        margin: 0.1vh;
+    }
+    .main_ctas p {
+        font-size: 1vw;
+    }
     .special_events_cta, .exhibitions_cta, .visit_us_cta, .help_us_cta {
         margin: 1vh;
     }
 
-    .explore_container1 {
+    .explore {
+        width: 80%;
+    }
+
+}
+
+@media screen and (max-width: 590px) {
+
+    .main_ctas {
         width: 100%;
         
     }
+    .special_events_cta, .exhibitions_cta, .visit_us_cta, .help_us_cta {
+        flex: 100%;
+        max-width: 200px;
+        
+    }
+    
+    .main_ctas a p {
+        font-size: 4vw;
+    }
+    .Explore h1 {
+        font-size: 8vw;
+    }
 
-    .explore_container2 {
-        width: 100%;
-      
+    .explore_container1 p {
+        font-size: 3vw;
+    }
+
+    .explore_container2 p {
+        font-size: 3vw;
     }
 }
