@@ -320,6 +320,7 @@ h2 {
     .main_ctas {
         justify-content: space-around;
         margin: 0.1vh;
+        
     }
     .main_ctas p {
         font-size: 1vw;
@@ -332,6 +333,19 @@ h2 {
         width: 80%;
     }
 
+    .Explore h1 {
+        font-size: 6vw;
+    }
+    .explore_container1 h2 {
+        font-size: 4vw;
+    }
+
+    .explore_container1 p {
+        font-size: 3vw;
+    }
+    .explore_container2 p {
+        font-size: 3vw;
+    }
 }
 
 @media screen and (max-width: 590px) {
@@ -349,15 +363,21 @@ h2 {
     .main_ctas a p {
         font-size: 4vw;
     }
+
+    .special_events_cta a p {
+        font-size: 3vw;
+    }
+
+
     .Explore h1 {
         font-size: 8vw;
     }
 
     .explore_container1 p {
-        font-size: 3vw;
+        font-size: 4vw;
     }
 
     .explore_container2 p {
-        font-size: 3vw;
+        font-size: 4vw;
     }
 }
