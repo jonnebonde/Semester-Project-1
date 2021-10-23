@@ -256,6 +256,7 @@ footer {
  
 }
 .footer_contact {
+    width: 100%;
     padding: 10px
 }
 .footer_contact a {
@@ -288,7 +289,7 @@ footer {
 .sign_up button {
     background: var(--blue);
     color: var(--orange);
-    width: 10%;
+    width: 20%;
 
 }
 .onclick {
@@ -296,6 +297,7 @@ footer {
 }
 
 .social_media_icons {
+    width: 100%;
     margin-right: 10px;
 }
 
@@ -360,7 +362,7 @@ footer {
     }
     .special_events_cta, .exhibitions_cta, .visit_us_cta, .help_us_cta {
         flex: 100%;
-        max-width: 165px;
+        max-width: 200px;
         
     }
 
@@ -380,8 +382,8 @@ footer {
         height: 150px;
     }
     .main_ctas {
-        justify-content: space-around;
-        margin: 0.1vh;
+        justify-content: center;
+        
         
     }
     .main_ctas p {
@@ -406,8 +408,28 @@ footer {
         font-size: 3vw;
     }
     .explore_container2 p {
-        font-size: 3vw;
+        font-size: 2vw;
     }
+
+
+
+    .sign_up {
+        width: 100%;
+    }
+
+
+    .footer_contact p {
+        font-size: 2vw;
+    }
+    .footer_contact a {
+        font-size: 2vw;
+    }
+
+    .social_media_icons a {
+        font-size: 2.6vw;
+    }
+
+
 }
 
 @media screen and (max-width: 590px) {
