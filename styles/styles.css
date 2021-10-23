@@ -154,20 +154,20 @@
 .special_events_cta, .exhibitions_cta, .visit_us_cta, .help_us_cta {
     position: relative;
     flex: 1;
-    margin: 20px;
+    margin: 2vh;
    
 }
 
 .explore {
     position: relative;
     flex: 1;
-    margin: 10px;
+    margin: 2vh;
     
 }
 .explore_for_kids, .explore_for_teachers, .explore_for_ysc, .explore_for_researchers {
     position: relative;
     flex: 1;
-    max-width: fit-content;
+    max-width: 100%;
 }
 
 .main_ctas a {
@@ -304,7 +304,25 @@ h2 {
         margin: 0;
     }
 
+    .flex_wrap {
+        margin: 0;
+    }
+
     .front_img img {
         height: 200px;
+    }
+
+    .special_events_cta, .exhibitions_cta, .visit_us_cta, .help_us_cta {
+        margin: 1vh;
+    }
+
+    .explore_container1 {
+        width: 100%;
+        
+    }
+
+    .explore_container2 {
+        width: 100%;
+      
     }
 }
