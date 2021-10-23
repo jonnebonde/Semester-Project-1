@@ -3,6 +3,7 @@
     --silver: #e2e2e2;
     --orange: #f0b666;
     --blue: #1f4590;
+    --white: #ffff;
     --font-family: ;
 }
 
@@ -249,6 +250,9 @@ h2 {
 footer {
     background: var(--orange);
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
  
 }
 .footer_contact {
@@ -265,6 +269,29 @@ footer {
     font-size: 1.2vw;
 
 }
+.sign_up {
+    display: flex;
+    width: 100%;
+}
+
+.sign_up input {
+    background: var(--white);
+    color: var(--blue);
+    font-size: 1vw;
+    width: 30%;
+    height: 30px;
+    padding: 5px;
+    border: 1px solid var(--blue);
+  
+}
+.sign_up button {
+    background: var(--blue);
+    color: var(--orange);
+    width: 20%;
+
+}
+
+
 
 /** media queries **/
 
