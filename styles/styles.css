@@ -342,7 +342,7 @@ h2 {
     }
     .special_events_cta, .exhibitions_cta, .visit_us_cta, .help_us_cta {
         flex: 100%;
-        max-width: 200px;
+        max-width: 180px;
         
     }
     
