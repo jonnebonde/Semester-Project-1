@@ -13,7 +13,7 @@
 
 /** navigation **/
 .logo {
-    width: 8vw;
+    width: 5vw;
 } 
 
 .header {
@@ -140,6 +140,11 @@
     
 }
 
+.flex_wrap {
+    margin: 0 10vh;
+
+}
+
 .main_ctas, .explore, .explore_container1, .explore_container2 {
     width: 100%;
     display: flex;
@@ -237,23 +242,15 @@ h2 {
     margin: 1vw;
 }
 
-.explore_for_ysc {
-    display: flex;
-    align-items: center;
-}
-.explore_for_ysc img {
-    
-    width: 100%;
-    max-height: 300px;
-    padding: 10px;
-   
-}
+
+/** footer **/
+
 
 
 /** media queries **/
 
 @media screen and (min-width: 1920px) {
-    main, footer {
+    main, {
         max-width: 1920px;
         margin: auto;
         }
