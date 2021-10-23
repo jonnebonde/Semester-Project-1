@@ -24,8 +24,7 @@
     justify-content: space-between;
     align-items: center;
     transition: 0.3s;
-    
-    
+     
 }
 .navlogo_title {
     display: flex;
@@ -262,7 +261,6 @@ h2 {
         height: 15vw;
     }
 
-
     .navlogo_title p {
         font-size: 5vw;
     }
@@ -304,5 +302,9 @@ h2 {
     }
     main {
         margin: 0;
+    }
+
+    .front_img img {
+        height: 200px;
     }
 }
