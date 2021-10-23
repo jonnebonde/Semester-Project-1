@@ -132,16 +132,15 @@
 
 }
 
-/* main */
-
 .front_img img {
     width: 100%;
     max-height: 300px;
     
 }
+/* main */
 
 .flex_wrap {
-    margin: 0 10vh;
+    margin: 3vh 10vh;
 
 }
 
@@ -197,7 +196,6 @@
     opacity: 100%;
 }
 
-
 .special_events_cta img {
     width: 100%;
 }
@@ -218,6 +216,7 @@ h1 {
     text-align: center;
     color: var(--blue);
     font-size: 2.5vw;
+    margin-top: 2vw;
 }
 
 h2 {
@@ -255,15 +254,9 @@ h2 {
         margin: auto;
         }
 }
-    
-}
-
-media screen and (max-width: 1199px) {
-    
-}
 
 
-@media screen and (max-width: 999px) {
+@media screen and (max-width: 900px) {
     
     .header {
         height: 15vw;
@@ -271,7 +264,7 @@ media screen and (max-width: 1199px) {
 
 
     .navlogo_title p {
-        font-size: 3vw;
+        font-size: 5vw;
     }
     
     .hamburger,
@@ -291,7 +284,6 @@ media screen and (max-width: 1199px) {
         width: 100px;
         height: 100%;
         padding-top: 65px;
-
     }
 
     .menu li {
@@ -309,5 +301,8 @@ media screen and (max-width: 1199px) {
     .explore_for_kids, .explore_for_teachers, .explore_for_ysc, .explore_for_researchers {
         flex: 100%;
         max-width: fit-content;
+    }
+    main {
+        margin: 0;
     }
 }
