@@ -242,9 +242,6 @@ h2 {
     margin: 1vw;
 }
 
-
-
-
 /** footer **/
 
 footer {
@@ -256,7 +253,6 @@ footer {
  
 }
 .footer_contact {
-    width: 100%;
     padding: 10px
 }
 .footer_contact a {
@@ -270,34 +266,9 @@ footer {
     font-size: 1.2vw;
 
 }
-.sign_up {
-    display: flex;
-    width: 50%;
-}
-
-.sign_up input {
-    background: var(--white);
-    color: var(--blue);
-    font-size: 1vw;
-    width: 50%;
-    height: 30px;
-    padding: 5px;
-    margin: 0;
-    border: 1px solid var(--blue);
-  
-}
-.sign_up button {
-    background: var(--blue);
-    color: var(--orange);
-    width: 20%;
-
-}
-.onclick {
-    color: var(--blue);
-}
 
 .social_media_icons {
-    width: 100%;
+    
     margin-right: 10px;
 }
 
@@ -411,13 +382,6 @@ footer {
         font-size: 2vw;
     }
 
-
-
-    .sign_up {
-        width: 100%;
-    }
-
-
     .footer_contact p {
         font-size: 2vw;
     }
@@ -426,7 +390,7 @@ footer {
     }
 
     .social_media_icons a {
-        font-size: 2.6vw;
+        font-size: 4vw;
     }
 
 
@@ -463,4 +427,16 @@ footer {
     .explore_container2 p {
         font-size: 4vw;
     }
+
+    .footer_contact p {
+        font-size: 3.5vw;
+    }
+    .footer_contact a {
+        font-size: 3.5vw;
+    }
+
+    .social_media_icons a {
+        font-size: 6vw;
+    }
+
 }
