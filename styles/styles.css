@@ -1,12 +1,54 @@
 :root {
+    /** color **/
     --black: #000000;
     --silver: #e2e2e2;
     --orange: #f0b666;
     --blue: #1f4590;
     --white: #ffff;
     --font-family: ;
+
+    /** font sizes **/
+    
+    --fs-big: 3rem;
+    --fs-title: 2.2rem;
+    --fs-medium: 1.5rem;
+    --fs-smlogo: 4rem;
+    --fs-h1: 4rem;
+    --fs-h2: 3rem;
 }
 
+/**  start for media queries for fonts only **/
+@media (max-width: 1500px) {
+    :root {
+        --fs-big: 2.2rem;
+        --fs-title: 2rem;
+        --fs-medium: 1.4rem;
+        --fs-h1: 3.3rem;
+        --fs-h2: 2.4rem;    
+    }
+}
+
+@media (max-width: 1250px) {
+    :root {
+        --fs-big: 2rem;
+        --fs-title: 1.4rem;
+        --fs-medium: 1.2rem;
+        --fs-h1: 3rem;
+        --fs-h2: 2rem;
+    }
+}
+
+@media (max-width: 1050px) {
+    :root {
+        --fs-big: 2.3rem;
+        --fs-title: 1.4rem;
+        --fs-medium: 1.4rem;
+        --fs-h1: 3rem;
+        --fs-h2: 2rem;
+        --fs-smlogo: 3rem;
+    }
+}
+/**  end for media queries for fonts only **/
 * {
     margin:0;
     padding: 0;
@@ -35,7 +77,7 @@
     position: relative;
 }
 .navlogo_title p {
-    font-size: 2vw;
+    font-size: var(--fs-big);
     color: var(--blue);
 }
 .navigation {
@@ -52,7 +94,7 @@
     align-items: center;
     z-index: 1;
     transition: 0.3s;
-    padding-right: 40px;
+    padding-right: 20px;
 }
 
 .menu li {
@@ -63,9 +105,9 @@
     color: var(--blue);
     text-decoration: none;
     display: block;
-    padding: 10px 8px;
+    padding: 5px 6px;
     transition: 0.3s;
-    font-size: 1.1vw;
+    font-size: var(--fs-medium);
     font-weight: bold;
     
 }
@@ -182,7 +224,7 @@
 .main_ctas a p {
     background-color: var(--blue);
     color: var(--orange);
-    font-size: 1.7vw;
+    font-size: var(--fs-title);
     font-weight: bold;
     text-align: center;
     padding: 20px 0;
@@ -220,22 +262,21 @@
 h1 {
     text-align: center;
     color: var(--blue);
-    font-size: 2.5vw;
+    font-size: var(--fs-h1);
     margin-top: 2vw;
 }
 
 h2 {
     text-align: center;
     color: var(--blue);
+    font-size:var(--fs-h2);
     padding: 10px;
 
 }
 
-
-
 .explore_container1 p,
 .explore_container2 p {
-    font-size: 1.2vw;
+    font-size: var(--fs-medium);
     color: var(--blue);
     padding: 1vw;
 
@@ -344,12 +385,12 @@ footer {
 .footer_contact a {
     color: var(--blue);
     text-decoration: none;
-    font-size: 1.2vw;
+    font-size: var(--fs-medium);
 }
 
 .footer_contact p {
     color: var(--blue);
-    font-size: 1.2vw;
+    font-size: var(--fs-medium);
 
 }
 
@@ -361,7 +402,7 @@ footer {
 .social_media_icons a  {
     text-decoration: none;
     color: var(--blue);
-    font-size: 2.4vw;
+    font-size: var(--fs-smlogo);
     padding: 3px;
 
 }
@@ -376,8 +417,11 @@ footer {
         }
 }
 
+@media (max-width: 1500px) {
 
-@media screen and (max-width: 900px) {
+}
+
+@media screen and (max-width: 1050px) {
     
     .header {
         height: 15vw;
@@ -386,11 +430,7 @@ footer {
     .logo {
         width: 14vw;
     }
-
-    .navlogo_title p {
-        font-size: 5vw;
-    }
-    
+   
     .hamburger,
     .toggle-menu {
         display: block;
@@ -415,7 +455,7 @@ footer {
     }
   
     .menu li a {
-        font-size: 4vw;
+        font-size: var(--fs-medium);
     }
     .special_events_cta, .exhibitions_cta, .visit_us_cta, .help_us_cta {
         flex: 100%;
@@ -441,11 +481,9 @@ footer {
     .main_ctas {
         justify-content: center;
         
-        
+           
     }
-    .main_ctas p {
-        font-size: 1vw;
-    }
+   
     .special_events_cta, .exhibitions_cta, .visit_us_cta, .help_us_cta {
         margin: 1vh;
     }
@@ -453,32 +491,6 @@ footer {
     .explore {
         width: 80%;
     }
-
-    .Explore h1 {
-        font-size: 6vw;
-    }
-    .explore_container1 h2 {
-        font-size: 4vw;
-    }
-
-    .explore_container1 p {
-        font-size: 3vw;
-    }
-    .explore_container2 p {
-        font-size: 2vw;
-    }
-
-    .footer_contact p {
-        font-size: 2vw;
-    }
-    .footer_contact a {
-        font-size: 2vw;
-    }
-
-    .social_media_icons a {
-        font-size: 4vw;
-    }
-
 
 }
 
@@ -494,35 +506,4 @@ footer {
         
     }
     
-    .main_ctas a p {
-        font-size: 4vw;
-    }
-
-    .special_events_cta a p {
-        font-size: 3vw;
-    }
-
-    .Explore h1 {
-        font-size: 8vw;
-    }
-
-    .explore_container1 p {
-        font-size: 4vw;
-    }
-
-    .explore_container2 p {
-        font-size: 4vw;
-    }
-
-    .footer_contact p {
-        font-size: 3.5vw;
-    }
-    .footer_contact a {
-        font-size: 3.5vw;
-    }
-
-    .social_media_icons a {
-        font-size: 6vw;
-    }
-
 }
