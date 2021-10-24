@@ -19,6 +19,7 @@
     --fs-h1: 4rem;
     --fs-h2: 3rem;
     --fs-h3: 2.5rem;
+    --fs-table: 1.5rem;
 }
 
 /**  start for media queries for fonts only **/
@@ -39,6 +40,7 @@
         --fs-medium: 1.2rem;
         --fs-h1: 3rem;
         --fs-h2: 2rem;
+        --fs-table: 1.1rem
     }
 }
 
@@ -50,6 +52,7 @@
         --fs-h1: 3rem;
         --fs-h2: 2rem;
         --fs-smlogo: 3rem;
+        --fs-table: 1rem;
     }
 }
 
@@ -362,7 +365,7 @@ h2 {
     table {
         margin: auto;
         padding-top: 30px;
-        font-size: var(--fs-medium);
+        font-size: var(--fs-table);
     }
     tr, th {
         text-align: center;
@@ -421,6 +424,24 @@ footer {
         margin: auto;
         }
 }
+
+@media screen and (max-width: 1250px) {
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows:  1fr 1fr 1fr;
+        grid-gap: 30px;
+        margin: 20px;
+        
+      }
+
+
+}
+
+
+
+
 
 @media screen and (max-width: 1050px) {
     
