@@ -48,6 +48,17 @@
         --fs-smlogo: 3rem;
     }
 }
+
+@media (max-width: 500px) {
+    :root {
+        --fs-big: 1.3rem;
+        --fs-title: 1.1rem;
+        --fs-medium: 1.3rem;
+        --fs-h1: 2.5rem;
+        --fs-h2: 2rem;
+        --fs-smlogo: 3rem;
+    }
+}
 /**  end for media queries for fonts only **/
 * {
     margin:0;
@@ -506,4 +517,17 @@ footer {
         
     }
     
+}
+
+@media (max-width: 500px) {
+    footer {
+        background: var(--orange);
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 50px;
+     
+    }
 }
