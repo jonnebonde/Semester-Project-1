@@ -59,7 +59,7 @@
 @media (max-width: 500px) {
     :root {
         --fs-big: 1.3rem;
-        --fs-title: 1.1rem;
+        --fs-title: 1.3rem;
         --fs-medium: 1.3rem;
         --fs-h1: 2.5rem;
         --fs-h2: 2rem;
@@ -419,7 +419,7 @@ footer {
 /** media queries **/
 
 @media screen and (min-width: 1920px) {
-    main, {
+    main {
         max-width: 1920px;
         margin: auto;
         }
@@ -438,10 +438,6 @@ footer {
 
 
 }
-
-
-
-
 
 @media screen and (max-width: 1050px) {
     
@@ -493,17 +489,14 @@ footer {
         margin: 0;
     }
 
-    .flex_wrap {
-        margin: 1vh;
-    }
+    
 
     .front_img img {
         height: 150px;
     }
     .main_ctas {
         justify-content: center;
-        
-           
+         
     }
    
     .special_events_cta, .exhibitions_cta, .visit_us_cta, .help_us_cta {
@@ -530,7 +523,19 @@ footer {
     
 }
 
-@media (max-width: 500px) {
+@media screen and (max-width: 900px) {
+
+    .special_events_cta, .exhibitions_cta, .visit_us_cta, .help_us_cta {
+        flex: 100%;
+        max-width: 300px;
+        
+    }
+}
+
+
+
+
+@media screen and (max-width: 500px) {
     footer {
         background: var(--orange);
         width: 100%;
