@@ -325,11 +325,6 @@ h2 {
 
 /** visit.html start **/
 
-main {
-    background-image: ;
-}
-
-
 .visit_h1 {
     background: var(--orange);
     margin: 20px;
@@ -425,10 +420,6 @@ footer {
         max-width: 1920px;
         margin: auto;
         }
-}
-
-@media (max-width: 1500px) {
-
 }
 
 @media screen and (max-width: 1050px) {
