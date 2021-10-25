@@ -350,7 +350,7 @@ h2 {
 .grid-container p {
     font-size: var(--fs-medium);
    text-align: center;
-   padding: 10px;
+   padding: 20px;
 }
 .grid-container h3 {
     font-size: var(--fs-h3);
@@ -392,7 +392,7 @@ tr, th {
         display: flex;
         margin: auto;
         width: 80%;
-        height: auto;
+        height: 300px;
       
     }
 
@@ -442,12 +442,21 @@ footer {
 
 /** media queries **/
 
-@media screen and (min-width: 1920px) {
+@media screen and (min-width: 2000px) {
     main {
         max-width: 1920px;
         margin: auto;
         }
+
+    .footer_bottom {
+        position: fixed;
+        bottom: 0;
+    }
 }
+
+
+
+
 @media (max-width: 1400px) {
     .grid-container {
         display: grid;
