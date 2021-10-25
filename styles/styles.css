@@ -283,7 +283,7 @@
     background-color: var(--orange);
     opacity: 100%;
 }
-
+h1
 .special_events_cta img {
     width: 100%;
 }
@@ -404,8 +404,13 @@ tr, th {
 /** exhibitions.html start **/
 
     .cosmology {
+        display: flex;
         background: var(--orange);
         width: 100%
+    }
+
+    .cosmology p {
+        font-size: var(--fs-medium);
     }
 
 
