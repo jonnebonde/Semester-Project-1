@@ -123,9 +123,11 @@
     justify-content: space-between;
     align-items: center;
 }
-.active a {
-    text-decoration: underline;
+
+.active {
+    border-bottom: 5px solid var(--blue);
 }
+
 .menu {
     display: flex;
     justify-content: center;
