@@ -85,7 +85,7 @@
 
 
 
-/** background images stopp **/
+/** background images stop **/
 
 * {
     margin:0;
@@ -223,7 +223,8 @@
     max-height: 300px;
     
 }
-/* main */
+
+/** Main **/
 
 .flex_wrap {
     margin: 3vh 0vh;
@@ -331,7 +332,7 @@ h2 {
     background-color: var(--orange);
     margin: 20px;
 }
-/** index.html end **/
+/** index.html stop **/
 
 /** visit.html start **/
 
@@ -398,10 +399,26 @@ tr, th {
       
     }
 
-/** visit-html end **/
+/** visit-html stop **/
+
+/** exhibitions.html start **/
+
+    .cosmology {
+        background: var(--orange);
+        width: 100%
+    }
 
 
-/** footer **/
+
+
+
+/** exhibitions.html stop **/
+
+
+
+
+
+/** Footer start **/
 
 footer {
     background: var(--orange);
@@ -440,7 +457,7 @@ footer {
 
 }
 
-/** footer end **/
+/** Footer stop **/
 
 /** media queries **/
 
@@ -455,9 +472,6 @@ footer {
         bottom: 0;
     }
 }
-
-
-
 
 @media (max-width: 1400px) {
     .grid-container {
