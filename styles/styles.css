@@ -416,23 +416,27 @@ tr, th {
 
 /** exhibitions.html start **/
 
-    .cosmology {
+    .cosmology,
+    .evolution,
+    .biology_medicine,
+    .robotics_AI,
+    .ecology {
         display: flex;
         background: var(--orange);
         width: 100%;
         margin: 20px 0px;
     }
 
-    .cosmology p {
+    .grid-exhibition p {
         font-size: var(--fs-medium);
         color: var(--blue);
         padding: 20px;
     }
 
-    .cosmology img {
-        width: 40%;
+    .grid-exhibition img {
+        width: 45%;
         margin: auto;
-        height: auto;
+        height: 300px;
 
     }
 
