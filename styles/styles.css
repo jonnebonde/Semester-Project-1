@@ -73,6 +73,7 @@
 
 .visit_img {
     background-image: url(/images/Backgrounds/visit_us.jpg);
+    
 }
 
 .visit_img {
@@ -81,7 +82,11 @@
     background-position: center;
     background-attachment: fixed;
     max-width: 100%;
+    
 }
+
+
+
 
 
 
@@ -152,7 +157,7 @@
     
 }
 .menu li a:hover {
-    text-decoration: underline;
+    border-bottom: 5px solid var(--blue);
 }
 
 .hamburger {
@@ -283,7 +288,8 @@
     background-color: var(--orange);
     opacity: 100%;
 }
-h1
+
+
 .special_events_cta img {
     width: 100%;
 }
@@ -308,6 +314,7 @@ h1 {
     width: 100%;
     text-align: center;
     margin: auto;
+    margin: 20px 0px;
 }
 
 h2 {
@@ -316,6 +323,12 @@ h2 {
     font-size:var(--fs-h2);
     padding: 10px;
 
+}
+
+h3 {
+    text-align: center;
+    color: var(--blue);
+    font-size: var(--fs-h3);
 }
 
 .explore_container1 p,
@@ -406,11 +419,21 @@ tr, th {
     .cosmology {
         display: flex;
         background: var(--orange);
-        width: 100%
+        width: 100%;
+        margin: 20px 0px;
     }
 
     .cosmology p {
         font-size: var(--fs-medium);
+        color: var(--blue);
+        padding: 20px;
+    }
+
+    .cosmology img {
+        width: 40%;
+        margin: auto;
+        height: auto;
+
     }
 
 
