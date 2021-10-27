@@ -26,7 +26,7 @@
 @media (max-width: 1500px) {
     :root {
         --fs-big: 2.2rem;
-        --fs-title: 2rem;
+        --fs-title: 1.8rem;
         --fs-medium: 1.4rem;
         --fs-h1: 3.3rem;
         --fs-h2: 2.4rem;    
@@ -227,14 +227,10 @@
 
 /** Main **/
 
-.flex_wrap {
-    margin: 3vh 0vh;
-
-}
-
 
 .main_ctas, .explore, .explore_container1, .explore_container2 {
     width: 100%;
+    margin: auto;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
