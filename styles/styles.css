@@ -86,10 +86,6 @@
 }
 
 
-
-
-
-
 /** background images stop **/
 
 * {
@@ -236,6 +232,7 @@
 
 }
 
+
 .main_ctas, .explore, .explore_container1, .explore_container2 {
     width: 100%;
     display: flex;
@@ -360,6 +357,7 @@ h3 {
     grid-template-columns: 1fr 1fr 1fr ;
     grid-template-rows: 2fr 1fr;
     grid-gap: 20px;
+    margin: 20px;
   }
 
 
@@ -416,29 +414,35 @@ tr, th {
 
 /** exhibitions.html start **/
 
-    .cosmology,
-    .evolution,
-    .biology_medicine,
-    .robotics_AI,
-    .ecology {
-        display: flex;
-        background: var(--orange);
-        width: 100%;
-        margin: 20px 0px;
-    }
+.exhibitions {
+    margin: 20px;
+}
 
-    .grid-exhibition p {
-        font-size: var(--fs-medium);
-        color: var(--blue);
-        padding: 20px;
-    }
+.exhibitions p {
+    font-size: var(--fs-medium);
+    color: var(--blue);
+    padding: 20px;
+}
 
-    .grid-exhibition img {
-        width: 45%;
-        margin: auto;
-        height: 300px;
+.exhibitions img {
+    width: 45%;
+    margin: auto;
+    height: 300px;
 
-    }
+}
+
+.cosmology,
+.evolution,
+.biology_medicine,
+.robotics_AI,
+.ecology {
+    display: flex;
+    background: var(--orange);
+    width: 100%;
+    margin: 20px 0px;
+}
+
+    
 
 
 
@@ -493,7 +497,7 @@ footer {
 
 /** media queries **/
 
-@media screen and (min-width: 2000px) {
+@media screen and (min-width: 1930px) {
     main {
         max-width: 1920px;
         margin: auto;
