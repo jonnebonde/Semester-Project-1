@@ -426,8 +426,7 @@ tr, th {
 
 .exhibitions_group img {
     width: 45%;
-    margin: auto;
-    height: 300px;
+    height: auto;
 
 }
 
@@ -440,6 +439,7 @@ tr, th {
     background: var(--orange);
     width: 100%;
     margin: 20px 0px;
+    
 }
 
     
@@ -588,9 +588,40 @@ footer {
         grid-template-columns: 1fr 1fr ;
         grid-template-rows:  1fr 1fr 1fr;
         grid-gap: 30px;
-        margin: 20px;
+        
         
       }
+
+    .exhibitions_group {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        grid-gap: 20px;
+    }
+
+    .exhibitions_group img {
+        width: 100%;
+        height: fit-content;
+    
+    }
+    
+    .evolution,
+    .robotics_AI {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+
+
+    .cosmology,
+    .biology_medicine,
+    .ecology {
+        display: flex;
+        flex-direction: column-reverse;
+        margin: 0;
+        
+
+}
 
 }
 
@@ -754,6 +785,14 @@ footer {
         max-width: 300px;
         
     }
+
+    .exhibitions_group {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-gap: 20px;
+    }
+
 }
 
 
