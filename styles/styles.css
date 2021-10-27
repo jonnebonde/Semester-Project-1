@@ -282,7 +282,6 @@
     opacity: 100%;
 }
 
-
 .special_events_cta img {
     width: 100%;
 }
@@ -331,6 +330,7 @@ h3 {
     padding: 20px;
 
 }
+
 .explore_for_kids,
 .explore_for_ysc,
 .explore_for_teachers,
@@ -771,6 +771,7 @@ footer {
         width: 100%;
         
     }
+
     .special_events_cta, .exhibitions_cta, .visit_us_cta, .help_us_cta {
         flex: 100%;
         max-width: 160px;
@@ -795,7 +796,6 @@ footer {
     }
 
 }
-
 
 @media screen and (max-width: 500px) {
     footer {
