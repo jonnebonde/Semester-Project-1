@@ -414,20 +414,20 @@ tr, th {
 
 /** exhibitions.html start **/
 
-.exhibitions {
+.exhibitions_group {
     margin: 20px;
 }
 
-.exhibitions p {
+.exhibitions_group p {
     font-size: var(--fs-medium);
     color: var(--blue);
     padding: 20px;
 }
 
-.exhibitions img {
+.exhibitions_group img {
     width: 45%;
     margin: auto;
-    height: 250px;
+    height: 300px;
 
 }
 
