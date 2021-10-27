@@ -229,7 +229,7 @@
 
 
 .main_ctas, .explore, .explore_container1, .explore_container2 {
-    width: 100%;
+    width: 90%;
     margin: auto;
     display: flex;
     justify-content: center;
@@ -353,7 +353,8 @@ h3 {
     grid-template-columns: 1fr 1fr 1fr ;
     grid-template-rows: 2fr 1fr;
     grid-gap: 20px;
-    margin: 20px;
+    width: 90%;
+    margin: auto;
   }
 
 
@@ -411,7 +412,8 @@ tr, th {
 /** exhibitions.html start **/
 
 .exhibitions_group {
-    margin: 20px;
+    width: 80%;
+    margin: auto;
 }
 
 .exhibitions_group p {
@@ -432,6 +434,7 @@ tr, th {
 .robotics_AI,
 .ecology {
     display: flex;
+    align-items: center;
     background: var(--orange);
     width: 100%;
     margin: 20px 0px;
@@ -604,6 +607,7 @@ footer {
     .evolution,
     .robotics_AI {
         display: flex;
+        align-items: center;
         flex-direction: column;
         margin: 0;
     }
@@ -613,6 +617,7 @@ footer {
     .biology_medicine,
     .ecology {
         display: flex;
+        align-items: center;
         flex-direction: column-reverse;
         margin: 0;
         
