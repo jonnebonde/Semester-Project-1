@@ -72,11 +72,17 @@
 /** background images **/
 
 .visit_img {
-    background-image: url(/images/Backgrounds/visit_us.jpg);
-    
+    background-image: url(/images/Backgrounds/visit_us.jpg);    
 }
 
-.visit_img {
+.exhibitions_img {
+    background-image: url(/images/Backgrounds/exhibitions.jpg) ;
+}
+
+
+
+.visit_img,
+.exhibitions_img {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -441,14 +447,43 @@ tr, th {
     
 }
 
-    
-
-
-
-
-
 /** exhibitions.html stop **/
 
+/**  specialevents.html start **/
+
+.special_events_group {
+    width: 80%;
+    margin: auto;
+}
+
+.special_events_group p {
+    font-size: var(--fs-medium);
+    color: var(--blue);
+    padding: 20px;
+}
+
+.special_events_group img {
+    width: 45%;
+    height: auto;
+
+}
+
+.professor,
+.night_museum,
+.Energetica {
+    display: flex;
+    align-items: center;
+    background: var(--orange);
+    width: 100%;
+    margin: 20px 0px;
+    
+}
+
+
+
+
+
+/**  specialevents.html stop **/
 
 
 
