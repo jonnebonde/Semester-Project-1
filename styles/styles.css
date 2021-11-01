@@ -20,6 +20,7 @@
     --fs-h2: 3rem;
     --fs-h3: 2.5rem;
     --fs-table: 1.5rem;
+    --fs-professor:2.2rem;
 }
 
 /**  start for media queries for fonts only **/
@@ -32,6 +33,16 @@
         --fs-h2: 2.4rem;    
     }
 }
+
+@media (max-width: 1379px) {
+
+    :root {
+        --fs-professor: 1.8rem;
+    }
+    
+}
+
+
 
 @media (max-width: 1250px) {
     :root {
@@ -53,8 +64,11 @@
         --fs-h2: 2rem;
         --fs-smlogo: 3rem;
         --fs-table: 1rem;
+        --fs-professor: 1.8rem;
     }
 }
+
+
 
 @media (max-width: 500px) {
     :root {
@@ -480,9 +494,6 @@ tr, th {
 }
 
 
-
-
-
 /**  specialevents.html stop **/
 
 
@@ -553,7 +564,6 @@ footer {
         
       }
 
-
       .grid-item {
         grid-column-start: 1;
         grid-column-end: 1;
@@ -612,6 +622,56 @@ footer {
   
 }
 
+.exhibitions_group,
+.special_events_group {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 20px;
+}
+
+.exhibitions_group img {
+    width: 100%;
+    height: fit-content;
+
+}
+
+.special_events_group img {
+    width: 100%;
+    height: auto;
+
+}
+
+.professor h3 {
+    font-size:var(--fs-professor);
+}
+
+
+.evolution,
+.robotics_AI,
+.night_museum
+ {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+   
+}
+
+
+.cosmology,
+.biology_medicine,
+.ecology,
+.Energetica,
+.professor {
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+    margin: 0;
+    
+
+}
+
   }
 
 
@@ -626,38 +686,7 @@ footer {
         
       }
 
-    .exhibitions_group {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: auto;
-        grid-gap: 20px;
-    }
-
-    .exhibitions_group img {
-        width: 100%;
-        height: fit-content;
     
-    }
-    
-    .evolution,
-    .robotics_AI {
-        display: flex;
-        align-items: center;
-        flex-direction: column;
-        margin: 0;
-    }
-
-
-    .cosmology,
-    .biology_medicine,
-    .ecology {
-        display: flex;
-        align-items: center;
-        flex-direction: column-reverse;
-        margin: 0;
-        
-
-}
 
 }
 
@@ -800,6 +829,26 @@ footer {
 
   }
 
+
+
+@media screen and (max-width: 900px) {
+
+    .special_events_cta, .exhibitions_cta, .visit_us_cta, .help_us_cta {
+        flex: 100%;
+        max-width: 300px;
+        
+    }
+
+    .exhibitions_group,
+    .special_events_group {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        grid-gap: 20px;
+    }
+
+}
+
 @media screen and (max-width: 590px) {
 
     .main_ctas {
@@ -813,23 +862,6 @@ footer {
         
     }
     
-}
-
-@media screen and (max-width: 900px) {
-
-    .special_events_cta, .exhibitions_cta, .visit_us_cta, .help_us_cta {
-        flex: 100%;
-        max-width: 300px;
-        
-    }
-
-    .exhibitions_group {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: auto;
-        grid-gap: 20px;
-    }
-
 }
 
 @media screen and (max-width: 500px) {
