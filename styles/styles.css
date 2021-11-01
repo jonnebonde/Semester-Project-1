@@ -94,9 +94,15 @@
 }
 
 
+.special_events_img {
+    background-image: url(/images/Backgrounds/special_events.jpg);
+}
+
+
 
 .visit_img,
-.exhibitions_img {
+.exhibitions_img,
+.special_events_img {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
