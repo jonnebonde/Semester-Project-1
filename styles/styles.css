@@ -70,10 +70,10 @@
 
 
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
     :root {
         --fs-big: 1.3rem;
-        --fs-title: 1.6rem;
+        --fs-title: 1.1rem;
         --fs-medium: 1.3rem;
         --fs-h1: 3rem;
         --fs-h2: 2rem;
@@ -98,11 +98,16 @@
     background-image: url(/images/Backgrounds/special_events.jpg);
 }
 
+.help_us_img {
+    background-image: url(/images/Backgrounds/help_us.jpg);
+}
+
 
 
 .visit_img,
 .exhibitions_img,
-.special_events_img {
+.special_events_img,
+.help_us_img {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -362,7 +367,7 @@ h3 {
 .explore_for_teachers,
 .explore_for_researchers {
     background-color: var(--orange);
-    margin: 20px;
+    margin: 10px;
 }
 /** index.html stop **/
 
@@ -502,6 +507,60 @@ tr, th {
 
 /**  specialevents.html stop **/
 
+/** help_us.html start **/
+
+.help_us_containers {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+
+.internship,
+.volunteer,
+.support {
+     margin: 10px;
+     padding: 20px;
+     font-size: var(--fs-medium);
+     color: var(--blue);
+     background-color: var(--orange);
+     
+                       
+}
+
+.internship h3,
+.volunteer h3,
+.support h3 {
+    margin: 10px;
+
+}
+
+.contact_cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--orange);
+    background-color: var(--blue);
+    text-decoration: none;
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+    
+   
+}
+
+.contact_cta:hover {
+    color: var(--blue);
+    background-color: var(--orange);
+    opacity: 100%;
+    
+   
+}
+
+
+/** help_us stop **/
+
 
 
 
@@ -548,7 +607,7 @@ footer {
 
 /** media queries **/
 
-@media screen and (min-width: 1930px) {
+@media screen and (min-width: 1920px) {
     main {
         max-width: 1920px;
         margin: auto;
@@ -758,6 +817,15 @@ footer {
         margin: 1vh;
     }
 
+    .help_us_containers {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 70%;
+        
+    }
+
     
 
 }
@@ -855,6 +923,16 @@ footer {
 
 }
 
+@media screen and (max-width: 800px) {
+    
+    .help_us_containers {
+        width: 100%;
+        
+    }
+}
+
+
+
 @media screen and (max-width: 590px) {
 
     .main_ctas {
@@ -867,6 +945,8 @@ footer {
         max-width: 160px;
         
     }
+
+   
     
 }
 
