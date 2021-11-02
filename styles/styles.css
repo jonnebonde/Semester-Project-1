@@ -259,10 +259,10 @@
     
 }
 
-/** Main **/
-
-
-.main_ctas, .explore, .explore_container1, .explore_container2 {
+.main_ctas, 
+.explore,
+.explore_container1,
+.explore_container2 {
     width: 90%;
     margin: auto;
     display: flex;
@@ -272,7 +272,10 @@
 
 }
 
-.special_events_cta, .exhibitions_cta, .visit_us_cta, .help_us_cta {
+.special_events_cta, 
+.exhibitions_cta, 
+.visit_us_cta, 
+.help_us_cta {
     position: relative;
     flex: 1;
     margin: 20px;
@@ -285,10 +288,14 @@
     margin: 20px;
     
 }
-.explore_for_kids, .explore_for_teachers, .explore_for_ysc, .explore_for_researchers {
+.explore_for_kids, 
+.explore_for_teachers, 
+.explore_for_ysc, 
+.explore_for_researchers {
     position: relative;
     flex: 1;
     max-width: 100%;
+    height: 320px;
 }
 
 .main_ctas a {
