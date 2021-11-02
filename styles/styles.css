@@ -21,7 +21,6 @@
     --fs-h3: 2.5rem;
     --fs-table: 1.5rem;
     --fs-professor:2.2rem;
-    --fs-about: 1.6rem;
 }
 
 /**  start for media queries for fonts only **/
@@ -567,32 +566,30 @@ tr, th {
 
 /** about.html start **/
 
-    .about_us {
-       width: 80%;
-       margin: auto;
-    }
+.about_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--orange);
+    width: 90%;
+    margin: auto;
+    
 
-    .about_us p{
-        padding: 20px;
-        font-size: var(--fs-about);
-        color: var(--blue);
+}
 
-    }
+.about_container p{
+    color: var(--blue);
+    font-size: var(--fs-medium);
+    padding: 30px;
+    
 
-    .about_container1,
-    .about_container2,
-    .about_container3 {
-        display: flex;
-        align-items: center;
-        background: var(--orange);
-        width: 100%;
-        margin: 20px 0px;
-    }
 
-    .about_us img{
-        width: 20%;
-        height: auto;
-    }
+}
+
+.about_container img{
+    width: 40%;
+    height: auto;
+}
     
 
 
@@ -771,9 +768,21 @@ footer {
     align-items: center;
     flex-direction: column-reverse;
     margin: 0;
-    
 
 }
+
+.about_container {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+
+.about_container img {
+    width: 80%;
+}
+
+
 
   }
 
@@ -941,6 +950,20 @@ footer {
   
 }
 
+.about_container {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+.about_container p{
+    padding: 10px 20px;
+}
+
+.about_container img {
+    width: 100%;
+}
+
   }
 
 
@@ -960,6 +983,8 @@ footer {
         grid-template-rows: auto;
         grid-gap: 20px;
     }
+
+
 
 }
 
