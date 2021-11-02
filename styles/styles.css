@@ -61,7 +61,7 @@
         --fs-h1: 3rem;
         --fs-h2: 2rem;
         --fs-smlogo: 3rem;
-        --fs-table: 1.5rem;
+        --fs-table: 1.4rem;
         --fs-professor: 1.8rem;
     }
 }
@@ -956,7 +956,7 @@ footer {
         display: grid;
         justify-content: center;
         grid-template-columns: 1fr;
-        grid-template-rows: 400px 370px 420px 200px 220px 200px;
+        grid-template-rows: 450px 370px 420px 200px 240px 240px;
         grid-gap: 20px;
         
       }
@@ -1096,5 +1096,26 @@ footer {
         justify-content: space-between;
         margin-top: 50px;
      
+    }
+
+    .contact_form {
+        width: 90%;
+        
+    }
+
+    .contact_input {
+        border: none;
+        color: var(--blue);
+        font-size: var(--fs-medium);
+        height: 40px;
+        width: 100%;
+    }
+
+    .contact_input_message {
+        border: none;
+        color: var(--blue);
+        font-size: var(--fs-medium);
+        height: 200px;
+        width: 100%;
     }
 }
