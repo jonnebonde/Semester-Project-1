@@ -91,7 +91,6 @@
     background-image: url(/images/Backgrounds/exhibitions.jpg) ;
 }
 
-
 .special_events_img {
     background-image: url(/images/Backgrounds/special_events.jpg);
 }
@@ -104,13 +103,18 @@
     background-image: url(/images/Backgrounds/about_us.jpg);
 }
 
+.contact_us_img {
+    background-image: url(/images/Backgrounds/contact_us.jpg);
+}
+
 
 
 .visit_img,
 .exhibitions_img,
 .special_events_img,
 .help_us_img,
-.about_us_img {
+.about_us_img,
+.contact_us_img {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
