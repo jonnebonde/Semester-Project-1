@@ -1016,8 +1016,8 @@ footer {
     justify-content: center;
     align-items: center;
     margin-bottom: 20px;
-    width: 30vh;
-    height: 30vh;
+    height: 250px;
+
   
 }
 
@@ -1037,8 +1037,6 @@ footer {
 
   }
 
-
-
 @media screen and (max-width: 900px) {
 
     .special_events_cta, .exhibitions_cta, .visit_us_cta, .help_us_cta {
@@ -1054,13 +1052,6 @@ footer {
         grid-template-rows: 1fr;
         grid-gap: 20px;
     }
-
-    .google_map iframe {
-
-        height: 250px;
-      
-    }
-
 
 
 }
