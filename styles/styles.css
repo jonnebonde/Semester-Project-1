@@ -591,12 +591,69 @@ tr, th {
     height: auto;
 }
     
-
-
-
 /** about.html stop **/
 
+/** contact.html start **/
 
+.contact_form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--orange);
+    width: 450px;
+    margin: auto;
+}
+
+.contact_label {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: var(--blue);
+    font-size: var(--fs-medium);
+    padding: 10px;
+}
+
+.contact_input {
+    border: none;
+    font-size: var(--fs-medium);
+    height: 40px;
+    width: 400px;
+}
+
+.contact_label_message {
+    display: flex;
+    justify-content: center;
+    color: var(--blue);
+    font-size: var(--fs-medium);
+    padding: 10px;
+}
+
+.contact_input_message {
+    border: none;
+    color: var(--blue);
+    font-size: var(--fs-medium);
+    height: 100px;
+    width: 400px;
+}
+
+.contact_submit {
+    padding: 30px;
+}
+
+.contact_submit a{
+    text-decoration: none;
+    font-size: var(--fs-medium);
+    color: var(--orange);
+    background-color: var(--blue);
+    padding: 10px 30px;
+
+}
+
+
+
+
+/** contact-html stop **/
 
 
 /** Footer start **/
