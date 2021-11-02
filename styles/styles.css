@@ -21,6 +21,7 @@
     --fs-h3: 2.5rem;
     --fs-table: 1.5rem;
     --fs-professor:2.2rem;
+    --fs-about: 1.6rem;
 }
 
 /**  start for media queries for fonts only **/
@@ -41,8 +42,6 @@
     }
     
 }
-
-
 
 @media (max-width: 1250px) {
     :root {
@@ -102,12 +101,17 @@
     background-image: url(/images/Backgrounds/help_us.jpg);
 }
 
+.about_us_img {
+    background-image: url(/images/Backgrounds/about_us.jpg);
+}
+
 
 
 .visit_img,
 .exhibitions_img,
 .special_events_img,
-.help_us_img {
+.help_us_img,
+.about_us_img {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -561,6 +565,40 @@ tr, th {
 
 /** help_us stop **/
 
+/** about.html start **/
+
+    .about_us {
+       width: 80%;
+       margin: auto;
+    }
+
+    .about_us p{
+        padding: 20px;
+        font-size: var(--fs-about);
+        color: var(--blue);
+
+    }
+
+    .about_container1,
+    .about_container2,
+    .about_container3 {
+        display: flex;
+        align-items: center;
+        background: var(--orange);
+        width: 100%;
+        margin: 20px 0px;
+    }
+
+    .about_us img{
+        width: 20%;
+        height: auto;
+    }
+    
+
+
+
+/** about.html stop **/
+
 
 
 
@@ -751,6 +789,7 @@ footer {
         
       }
 
+   
     
 
 }
@@ -826,6 +865,7 @@ footer {
         
     }
 
+    
     
 
 }
