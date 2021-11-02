@@ -1055,6 +1055,12 @@ footer {
         grid-gap: 20px;
     }
 
+    .google_map iframe {
+
+        height: 250px;
+      
+    }
+
 
 
 }
