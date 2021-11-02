@@ -49,7 +49,7 @@
         --fs-medium: 1.2rem;
         --fs-h1: 3rem;
         --fs-h2: 2rem;
-        --fs-table: 1.1rem
+        --fs-table: 1.3rem
     }
 }
 
@@ -61,7 +61,7 @@
         --fs-h1: 3rem;
         --fs-h2: 2rem;
         --fs-smlogo: 3rem;
-        --fs-table: 1rem;
+        --fs-table: 1.5rem;
         --fs-professor: 1.8rem;
     }
 }
@@ -385,7 +385,7 @@ h3 {
     display: grid;
     justify-content: center;
     grid-template-columns: 1fr 1fr 1fr ;
-    grid-template-rows: 2fr 1fr;
+    grid-template-rows: 1fr 250px;
     grid-gap: 20px;
     width: 90%;
     margin: auto;
@@ -427,17 +427,22 @@ tr, th {
         margin: auto;
         padding-top: 30px;
         font-size: var(--fs-table);
+
+        
     }
     tr, th {
         text-align: center;
-        padding: 5px 40px 0 0;
+        padding: 8px 40px 0 0;
+        font-size: var(--fs-table);
+        
     }
 
     .google_map iframe {
         display: flex;
         margin: auto;
         width: 80%;
-        height: 300px;
+        height: 250px;
+        border: none;
       
     }
 
@@ -539,26 +544,26 @@ tr, th {
 
 }
 
-.contact_cta {
+.help-us-cta {
     display: flex;
     justify-content: center;
-    align-items: center;
-    color: var(--orange);
-    background-color: var(--blue);
-    text-decoration: none;
-    width: 100%;
-    height: 50px;
-    margin-top: 20px;
-    
-   
+    padding: 20px;
 }
 
-.contact_cta:hover {
+.help-us-cta a {
+    text-decoration: none;
+    font-size: var(--fs-medium);
+    color: var(--orange);
+    background-color: var(--blue);
+    padding: 10px 30px;
+
+}
+
+.help-us-cta a:hover {
     color: var(--blue);
     background-color: var(--orange);
     opacity: 100%;
     
-   
 }
 
 
@@ -581,8 +586,6 @@ tr, th {
     color: var(--blue);
     font-size: var(--fs-medium);
     padding: 30px;
-    
-
 
 }
 
@@ -651,7 +654,12 @@ tr, th {
 
 }
 
-
+.contact_submit a:hover {
+    color: var(--blue);
+    background-color: var(--orange);
+    opacity: 100%;
+    
+}
 
 
 /** contact-html stop **/
@@ -775,8 +783,7 @@ footer {
   .google_map iframe {
     display: flex;
     margin: auto;
-    width: 40vh;
-    height: 40vh;
+    height: 400px;
   
 }
 
@@ -850,7 +857,6 @@ footer {
     .grid-container {
         display: grid;
         grid-template-columns: 1fr 1fr ;
-        grid-template-rows:  1fr 1fr 1fr;
         grid-gap: 30px;
         
         
@@ -943,7 +949,7 @@ footer {
         display: grid;
         justify-content: center;
         grid-template-columns: 1fr;
-        grid-template-rows: 550px 400px 1fr 300px 350px 300px;
+        grid-template-rows: 400px 370px 420px 200px 220px 200px;
         grid-gap: 20px;
         
       }
@@ -1037,8 +1043,8 @@ footer {
     .exhibitions_group,
     .special_events_group {
         display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: auto;
+        grid-template-columns: 1fr ;
+        grid-template-rows: 1fr;
         grid-gap: 20px;
     }
 
