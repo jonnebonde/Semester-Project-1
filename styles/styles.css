@@ -616,6 +616,7 @@ tr, th {
 
 .contact_input {
     border: none;
+    color: var(--blue);
     font-size: var(--fs-medium);
     height: 40px;
     width: 400px;
