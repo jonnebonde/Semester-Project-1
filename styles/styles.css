@@ -1099,11 +1099,13 @@ footer {
     }
 
     .contact_form {
+        
         width: 90%;
         
     }
 
     .contact_input {
+        
         border: none;
         color: var(--blue);
         font-size: var(--fs-medium);
