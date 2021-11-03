@@ -381,6 +381,7 @@ h3 {
     font-size: var(--fs-medium);
     color: var(--blue);
     padding: 20px;
+    text-align: center;
 
 }
 
