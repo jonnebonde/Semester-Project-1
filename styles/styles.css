@@ -315,12 +315,17 @@
 }
 
 .main_ctas a {
+    background-color: var(--blue);
+    color: var(--orange);
     text-decoration: none;
+    width: 100%;
+    height: 100%;
+    display: block;
+   
 }
 
 .main_ctas a p {
-    background-color: var(--blue);
-    color: var(--orange);
+    
     font-size: var(--fs-title);
     font-weight: bold;
     text-align: center;
@@ -330,28 +335,18 @@
 
 .main_ctas img {
     width: auto;
-    opacity: 90%;
+    display: block;
     
 }
 
-.main_ctas a :hover {
+.main_ctas :hover{
     color: var(--blue);
     background-color: var(--orange);
-    opacity: 100%;
 }
 
-.special_events_cta img {
-    width: 100%;
-}
-
-.exhibitions_cta img {
-    width: 100%;
-}
-
-.visit_us_cta img {
-    width: 100%;
-}
-
+.special_events_cta img,
+.exhibitions_cta img,
+.visit_us_cta img,
 .help_us_cta img {
     width: 100%;
 }
