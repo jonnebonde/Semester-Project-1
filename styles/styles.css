@@ -111,8 +111,6 @@
     background-image: url(/images/Backgrounds/home.jpg);
 }
 
-
-
 .visit_img,
 .exhibitions_img,
 .special_events_img,
@@ -127,7 +125,6 @@
     max-width: 100%;
     
 }
-
 
 /** background images stop **/
 
@@ -150,18 +147,20 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    transition: 0.1s;
-     
+    transition: 0.1s; 
 }
+
 .navlogo_title {
     display: flex;
     align-items: center;
     position: relative;
 }
+
 .navlogo_title p {
     font-size: var(--fs-big);
     color: var(--blue);
 }
+
 .navigation {
     display: flex;
     justify-content: space-between;
@@ -185,6 +184,7 @@
     list-style: none;
 
 }
+
 .menu li a {
     color: var(--blue);
     text-decoration: none;
@@ -195,6 +195,7 @@
     font-weight: bold;
     
 }
+
 .menu li a:hover {
     border-bottom: 5px solid var(--blue);
 }
@@ -221,10 +222,12 @@
     transition: 0.1s;
 
 }
+
 .hamburger:before {
     top: -10px;
     width: 30px
 }
+
 .hamburger:after {
     top: 10px;
     width: 30px;
@@ -247,16 +250,19 @@
 .navigation input:checked ~ .hamburger {
     background: transparent;
 }
+
 .navigation input:checked ~ .hamburger:before {
     top: 0;
-    transform: rotate(-45deg);
+    transform: rotate(135deg);
     width: 30px;
 }
+
 .navigation input:checked ~ .hamburger:after {
     top: 0;
-    transform: rotate(45deg);
+    transform: rotate(-135deg);
     width: 30px;
 }
+
 .navigation input:checked ~ .menu {
     right: 0;
 
@@ -297,6 +303,7 @@
     margin: 20px;
     
 }
+
 .explore_for_kids, 
 .explore_for_teachers, 
 .explore_for_ysc, 
@@ -310,6 +317,7 @@
 .main_ctas a {
     text-decoration: none;
 }
+
 .main_ctas a p {
     background-color: var(--blue);
     color: var(--orange);
@@ -388,7 +396,9 @@ h3 {
     background-color: var(--orange);
     margin: 10px;
 }
+
 /** index.html stop **/
+
 
 /** visit.html start **/
 
@@ -405,14 +415,14 @@ h3 {
     grid-gap: 20px;
     width: 90%;
     margin: auto;
-  }
-
+}
 
 .grid-container p {
     font-size: var(--fs-medium);
    text-align: center;
    padding: 20px;
 }
+
 .grid-container h3 {
     font-size: var(--fs-h3);
     text-align: center;
@@ -423,44 +433,42 @@ table {
     padding-top: 30px;
     font-size: var(--fs-table);
 }
-tr, th {
+
+tr, 
+th {
     text-align: center;
     padding: 5px 40px 0 0;
 }
 
-  .grid-item1, 
-  .grid-item2, 
-  .grid-item3, 
-  .grid-item4, 
-  .grid-item5, 
-  .grid-item6  {
+.grid-item1, 
+.grid-item2, 
+.grid-item3, 
+.grid-item4, 
+.grid-item5, 
+.grid-item6  {
       background: var(--orange);
-      color: var(--blue);
-      
-  }
+      color: var(--blue);   
+}
 
-    table {
-        margin: auto;
-        padding-top: 30px;
-        font-size: var(--fs-table);
+table {
+    margin: auto;
+    padding-top: 30px;
+    font-size: var(--fs-table);
+}
 
-        
-    }
-    tr, th {
-        text-align: center;
-        padding: 8px 40px 0 0;
-        font-size: var(--fs-table);
-        
-    }
+tr, th {
+    text-align: center;
+    padding: 8px 40px 0 0;
+    font-size: var(--fs-table);  
+}
 
-    .google_map iframe {
-        display: flex;
-        margin: auto;
-        width: 80%;
-        height: 250px;
-        border: none;
-      
-    }
+.google_map iframe {
+    display: flex;
+    margin: auto;
+    width: 80%;
+    height: 250px;
+    border: none;
+}
 
 /** visit-html stop **/
 
