@@ -352,14 +352,15 @@
 }
 
 h1 {
+    display: block;
     background: var(--orange);
     padding: 10px 0;
     color: var(--blue);
     font-size: var(--fs-h1);
-    width: 100%;
     text-align: center;
-    margin: auto;
+    width: 100%;
     margin: 20px 0px;
+    
 }
 
 h2 {
@@ -728,7 +729,7 @@ footer {
 
 /** media queries **/
 
-@media screen and (min-width: 1930px) {
+@media screen and (min-width: 1920px) {
     main {
         max-width: 1920px;
         margin: auto;
