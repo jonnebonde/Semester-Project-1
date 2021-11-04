@@ -431,12 +431,6 @@ table {
     font-size: var(--fs-table);
 }
 
-tr, 
-th {
-    text-align: center;
-    padding: 5px 40px 0 0;
-}
-
 .grid-item1, 
 .grid-item2, 
 .grid-item3, 
@@ -454,8 +448,8 @@ table {
 }
 
 tr, th {
-    text-align: center;
-    padding: 8px 40px 0 0;
+    text-align: right;
+    padding: 8px 60px 0 0;
     font-size: var(--fs-table);  
 }
 
@@ -463,7 +457,7 @@ tr, th {
     display: flex;
     margin: auto;
     width: 80%;
-    height: 250px;
+    height: 200px;
     border: none;
 }
 
@@ -729,7 +723,7 @@ footer {
 
 /** media queries **/
 
-@media screen and (min-width: 1920px) {
+@media screen and (min-width: 1919px) {
     main {
         max-width: 1920px;
         margin: auto;
