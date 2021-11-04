@@ -293,7 +293,7 @@
 .help_us_cta {
     position: relative;
     flex: 1;
-    margin: 20px;
+    margin: 20px 10px;
    
 }
 
@@ -351,16 +351,24 @@
     width: 100%;
 }
 
-h1 {
+.h1_index {
     display: block;
-    background: var(--orange);
+    justify-content: center;
+    width: 90%;
+    margin: auto; 
+}
+
+.h1_visit {
+    
+}
+
+h1 {
+    text-align: center;
     padding: 10px 0;
+    background: var(--orange);
     color: var(--blue);
     font-size: var(--fs-h1);
-    text-align: center;
-    width: 100%;
-    margin: 20px 0px;
-    
+    margin: 10px 10px;
 }
 
 h2 {
@@ -407,8 +415,8 @@ h3 {
 .grid-container {
     display: grid;
     justify-content: center;
-    grid-template-columns: 1fr 1fr 1fr ;
-    grid-template-rows: 1fr 250px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 250px;
     grid-gap: 20px;
     width: 90%;
     margin: auto;
@@ -423,11 +431,12 @@ h3 {
 .grid-container h3 {
     font-size: var(--fs-h3);
     text-align: center;
+    padding: 10px;
 }
 
 table {
     margin: auto;
-    padding-top: 30px;
+    padding-top: 20px;
     font-size: var(--fs-table);
 }
 
@@ -448,7 +457,7 @@ table {
 }
 
 tr, th {
-    text-align: right;
+    text-align: left;
     padding: 8px 60px 0 0;
     font-size: var(--fs-table);  
 }
@@ -466,7 +475,7 @@ tr, th {
 /** exhibitions.html start **/
 
 .exhibitions_group {
-    width: 80%;
+    width: 90%;
     margin: auto;
 }
 
@@ -723,7 +732,7 @@ footer {
 
 /** media queries **/
 
-@media screen and (min-width: 1919px) {
+@media screen and (min-width: 1925px) {
     main {
         max-width: 1920px;
         margin: auto;
