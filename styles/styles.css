@@ -84,6 +84,15 @@
     margin:0;
     padding: 0;
     }
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    }
+    
 /** index.html start **/
 
 html {
@@ -161,7 +170,7 @@ html {
     position: relative;
     width: 30px;
     height: 4px;
-    background:var(--);
+    background:var(--white);
     border-radius: 10px;
     cursor: pointer;
     z-index: 2;
@@ -174,7 +183,7 @@ html {
     position: absolute;
     height: 4px;
     right: 0;
-    background: var(--);
+    background: var(--white);
     border-radius: 10px;
     transition: 0.1s;
 
@@ -207,7 +216,7 @@ html {
 .navigation input:checked ~ .hamburger {
     background: transparent;
 }
-
+    
 .navigation input:checked ~ .hamburger:before {
     top: 0;
     transform: rotate(135deg);
@@ -313,10 +322,6 @@ html {
     justify-content: center;
     width: 90%;
     margin: auto; 
-}
-
-.h1_visit {
-    
 }
 
 h1 {
@@ -520,7 +525,6 @@ h3 {
     color: var(--blue);
     background-color: var(--yellow);
     padding: 10px 30px;
-
 }
 
 .help-us-cta a:hover {
@@ -542,15 +546,12 @@ h3 {
     background-color: var(--blue);
     width: 90%;
     margin: auto;
-    
-
 }
 
 .about_container p{
     color: var(--yellow);
     font-size: var(--fs-medium);
     padding: 30px;
-
 }
 
 .about_container img{
@@ -615,14 +616,12 @@ h3 {
     color: var(--blue);
     background-color: var(--);
     padding: 10px 30px;
-
 }
 
 .contact_submit a:hover {
     color: var(--yellow);
     background-color: var(--blue);
     opacity: 100%;
-    
 }
 
 /** contact-html stop **/
@@ -637,11 +636,12 @@ footer {
     align-items: center;
     justify-content: space-between;
     margin-top: 50px;
- 
 }
+
 .footer_contact {
     padding: 10px
 }
+
 .footer_contact a {
     color: var(--yellow);
     text-decoration: none;
@@ -651,7 +651,6 @@ footer {
 .footer_contact p {
     color: var(--yellow);
     font-size: var(--fs-medium);
-
 }
 
 .social_media_icons {
@@ -664,7 +663,6 @@ footer {
     color: var(--yellow);
     font-size: var(--fs-smlogo);
     padding: 3px;
-
 }
 
 
@@ -780,9 +778,7 @@ footer {
     align-items: center;
     flex-direction: column;
     margin: 0;
-   
 }
-
 
 .cosmology,
 .biology_medicine,
@@ -793,7 +789,6 @@ footer {
     align-items: center;
     flex-direction: column-reverse;
     margin: 0;
-
 }
 
 .about_container {
@@ -801,7 +796,6 @@ footer {
     flex-direction: column;
     width: 60%;
 }
-
 
 .about_container img {
     width: 80%;
@@ -816,12 +810,7 @@ footer {
         display: grid;
         grid-template-columns: 1fr 1fr ;
         grid-gap: 30px;
-        
-        
       }
-
-   
-    
 
 }
 
@@ -851,7 +840,7 @@ footer {
         background: var(--blue);
         width: 100px;
         height: 100%;
-        padding-top: 65px;
+        padding-top: 80px;
     }
 
     .menu li {
@@ -861,6 +850,7 @@ footer {
     .menu li a {
         font-size: var(--fs-medium);
     }
+
     .special_events_cta, .exhibitions_cta, .visit_us_cta, .help_us_cta {
         flex: 100%;
         max-width: 200px;
@@ -871,6 +861,7 @@ footer {
         flex: 100%;
         max-width: fit-content;
     }
+
     main {
         margin: 0;
     }
@@ -878,6 +869,7 @@ footer {
     .front_img img {
         height: 150px;
     }
+
     .main_ctas {
         justify-content: center;
          
@@ -892,8 +884,7 @@ footer {
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        width: 70%;
-        
+        width: 70%; 
     }
 
 }
@@ -966,7 +957,6 @@ footer {
     margin-bottom: 20px;
     height: 250px;
 
-  
 }
 
 .about_container {
@@ -983,23 +973,23 @@ footer {
     width: 100%;
 }
 
-  }
+}
 
 @media screen and (max-width: 900px) {
 
-    .special_events_cta, .exhibitions_cta, .visit_us_cta, .help_us_cta {
-        flex: 100%;
-        max-width: 300px;
-        
-    }
+.special_events_cta, .exhibitions_cta, .visit_us_cta, .help_us_cta {
+    flex: 100%;
+    max-width: 300px;
+    
+}
 
-    .exhibitions_group,
-    .special_events_group {
-        display: grid;
-        grid-template-columns: 1fr ;
-        grid-template-rows: 1fr;
-        grid-gap: 20px;
-    }
+.exhibitions_group,
+.special_events_group {
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 1fr;
+    grid-gap: 20px;
+}
 
 
 }
@@ -1042,13 +1032,10 @@ footer {
     }
 
     .contact_form {
-        
         width: 90%;
-        
     }
 
     .contact_input {
-        
         border: none;
         color: var(--yellow);
         font-size: var(--fs-medium);
@@ -1065,10 +1052,3 @@ footer {
     }
 }
 
-body {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    height: 100vh;
-}
