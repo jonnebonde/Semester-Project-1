@@ -80,53 +80,6 @@
 /**  end for media queries for fonts only **/
 
 
-/** background images **/
-
-.visit_img {
-    background-image: url(/images/Backgrounds/visit_us.jpg);    
-}
-
-.exhibitions_img {
-    background-image: url(/images/Backgrounds/exhibitions.jpg) ;
-}
-
-.special_events_img {
-    background-image: url(/images/Backgrounds/special_events.jpg);
-}
-
-.help_us_img {
-    background-image: url(/images/Backgrounds/help_us.jpg);
-}
-
-.about_us_img {
-    background-image: url(/images/Backgrounds/about_us.jpg);
-}
-
-.contact_us_img {
-    background-image: url(/images/Backgrounds/contact_us.jpg);
-}
-
-.index_img {
-    background-image: url(/images/Backgrounds/home.jpg);
-}
-
-.visit_img,
-.exhibitions_img,
-.special_events_img,
-.help_us_img,
-.about_us_img,
-.contact_us_img,
-.index_img {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
-    max-width: 100%;
-    
-}
-
-/** background images stop **/
-
 * {
     margin:0;
     padding: 0;
