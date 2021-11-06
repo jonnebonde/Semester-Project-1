@@ -13,12 +13,12 @@
     /** font sizes **/
     
     --fs-big: 2.5rem;
-    --fs-title: 2rem;
+    --fs-title: 1.8rem;
     --fs-medium: 1.125rem;
     --fs-smlogo: 2rem;
-    --fs-h1: 3rem;
-    --fs-h2: 2.5rem;
-    --fs-h3: 2rem;
+    --fs-h1: 2.8rem;
+    --fs-h2: 2.3rem;
+    --fs-h3: 1.6rem;
     --fs-professor:2.2rem;
 }
 
@@ -26,10 +26,10 @@
 @media (max-width: 1500px) {
     :root {
         --fs-big: 2.2rem;
-        --fs-title: 1.8rem;
+        --fs-title: 1.4rem;
         --fs-medium: 1.125rem;
-        --fs-h1: 3rem;
-        --fs-h2: 2.4rem;    
+        --fs-h1: 2.5rem;
+        --fs-h2: 2rem;    
     }
 }
 
@@ -44,23 +44,22 @@
 @media (max-width: 1250px) {
     :root {
         --fs-big: 1.7rem;
-        --fs-title: 1.4rem;
+        --fs-title: 1.2rem;
         --fs-medium: 1.125rem;
-        --fs-h1: 3rem;
-        --fs-h2: 2rem;
-        --fs-table: 1.3rem
+        --fs-h1: 2.2rem;
+        --fs-h2: 1.8rem;
+        
     }
 }
 
 @media (max-width: 1050px) {
     :root {
         --fs-big: 1.5rem;
-        --fs-title: 1.4rem;
+        --fs-title: 1.3rem;
         --fs-medium: 1.125rem;
-        --fs-h1: 3rem;
-        --fs-h2: 2rem;
-        --fs-smlogo: 3rem;
-        --fs-table: 1.1rem;
+        --fs-h1: 2rem;
+        --fs-h2: 1.6rem;
+        --fs-smlogo: 2rem;
         --fs-professor: 1.8rem;
     }
 }
@@ -245,6 +244,7 @@ html {
 
 .flex_wrap h1 {
     margin: 10px;
+    padding: 10px;
 }
 
 .main_ctas, 
@@ -855,17 +855,14 @@ footer {
 
     .special_events_cta, .exhibitions_cta, .visit_us_cta, .help_us_cta {
         flex: 100%;
-        max-width: 200px;
+        max-width: 250px;
         
     }
 
     .explore_for_kids, .explore_for_teachers, .explore_for_ysc, .explore_for_researchers {
         flex: 100%;
         max-width: fit-content;
-    }
-
-    main {
-        margin: 0;
+        height: auto;
     }
 
     .front_img img {
@@ -875,10 +872,6 @@ footer {
     .main_ctas {
         justify-content: center;
          
-    }
-   
-    .special_events_cta, .exhibitions_cta, .visit_us_cta, .help_us_cta {
-        margin: 1vh;
     }
 
     .helpus_containers {
@@ -912,7 +905,7 @@ footer {
 
     .special_events_cta, .exhibitions_cta, .visit_us_cta, .help_us_cta {
         flex: 100%;
-        max-width: 300px;
+        max-width: 240px;
         
     }
 
