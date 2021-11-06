@@ -99,7 +99,6 @@ html {
     font-family: var(--font);
 }
 
-
 /** navigation **/
 
 .logo {
@@ -157,7 +156,6 @@ html {
     transition: 0.1s;
     font-size: var(--fs-medium);
     font-weight: semi-bold;
-    
 }
 
 .menu li a:hover,
@@ -473,8 +471,18 @@ h3 {
 .help_us_containers {
     display: flex;
     justify-content: center;
+    flex-direction: column;
     width: 70%;
     margin: auto;
+}
+
+.help_h1 {
+    margin: 10px;
+}
+
+.helpus_containers {
+    display: flex;
+
 }
 
 .internship,
@@ -873,12 +881,11 @@ footer {
         margin: 1vh;
     }
 
-    .help_us_containers {
+    .helpus_containers {
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        width: 70%; 
     }
 
 }
