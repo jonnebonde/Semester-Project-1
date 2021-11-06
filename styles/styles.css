@@ -96,6 +96,7 @@ body {
 
 html {
     font-family: var(--font);
+    background-color: var(--silver);
 }
 
 /** navigation **/
@@ -525,12 +526,22 @@ h3 {
 
 /** about.html start **/
 
+.about_containers {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: auto;
+}
+
+.about_h1 {
+    margin: 20px 0px;
+}
+
 .about_container {
     display: flex;
     align-items: center;
     justify-content: center;
     background-color: var(--blue);
-    width: 70%;
     margin: auto;
 }
 
@@ -549,6 +560,10 @@ h3 {
 /** about.html stop **/
 
 /** contact.html start **/
+
+.contact_h1 {
+    margin: 20px 0px;
+}
 
 .contact_form {
     display: flex;
@@ -795,12 +810,12 @@ footer {
 .about_container {
     display: flex;
     flex-direction: column;
-    width: 70%;
+    
 }
 
 .about_container img {
     display: block;
-    width: 70%;
+    width: auto;
 }
 
   }
@@ -888,7 +903,6 @@ footer {
     .about_container {
         display: flex;
         flex-direction: column;
-        width: 90%;
     }
 
     .about_container p{
