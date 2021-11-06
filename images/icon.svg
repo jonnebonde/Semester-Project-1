@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Generator: Adobe Illustrator 25.4.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!-- Generator: Adobe Illustrator 26.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 256 256" style="enable-background:new 0 0 256 256;" xml:space="preserve">
 <style type="text/css">
-	.st0{fill:#264979;}
+	.st0{fill:#FFFFFF;}
 </style>
 <rect x="126" y="148" class="st0" width="4" height="8"/>
 <rect x="126" y="100" class="st0" width="4" height="8"/>
 <rect x="100" y="126" class="st0" width="8" height="4"/>
 <rect x="148" y="126" class="st0" width="8" height="4"/>
-<rect x="143" y="141" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -60.051 144.9639)" class="st0" width="4" height="8"/>
-<rect x="109" y="107" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -45.9927 111.0239)" class="st0" width="4" height="8"/>
-<rect x="107" y="143" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -69.9887 120.9702)" class="st0" width="8" height="4"/>
-<rect x="141" y="109" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -36.0501 135.0275)" class="st0" width="8" height="4"/>
-<path class="st0" d="M153.5,196c-7.2,0-15.4-2.8-24-8.2c-13.4-8.5-26.2-22.7-36.1-39.8s-15.7-35.3-16.4-51.2
+<rect x="143" y="141" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -60.0331 144.9951)" class="st0" width="4" height="8"/>
+<rect x="109" y="107" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -45.9994 110.9953)" class="st0" width="4" height="8"/>
+<rect x="107" y="143" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -70.0191 120.9822)" class="st0" width="8" height="4"/>
+<rect x="141" y="109" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -36.019 135.0146)" class="st0" width="8" height="4"/>
+<path class="st0" d="M153.5,196c-7.2,0-15.4-2.8-24-8.2c-13.4-8.5-26.2-22.7-36.1-39.8S77.7,112.7,77,96.8
 	C76.2,80.5,81,68.5,90.5,63s22.2-3.6,36,5.1c13.4,8.5,26.2,22.7,36.1,39.8s15.7,35.3,16.4,51.2c0.7,16.3-4.1,28.3-13.6,33.8
-	C161.9,195,157.9,196,153.5,196z M102.5,64c-3.7,0-7.1,0.8-10.1,2.6c-8.1,4.7-12.2,15.4-11.6,30.1c0.7,15.2,6.3,32.7,15.9,49.4
+	C161.9,195,157.9,196,153.5,196z M102.5,64c-3.7,0-7.1,0.8-10.1,2.6C84.3,71.3,80.2,82,80.8,96.7c0.7,15.2,6.3,32.7,15.9,49.4
 	c9.6,16.6,21.9,30.3,34.8,38.5c12.4,7.9,23.8,9.7,31.9,5.1c8.1-4.7,12.2-15.4,11.6-30.1c-0.7-15.2-6.3-32.7-15.9-49.4
 	c-9.6-16.6-21.9-30.3-34.8-38.5C116.5,66.5,109,64,102.5,64z"/>
 <path class="st0" d="M102.5,196c-4.4,0-8.5-1-12-3.1c-9.5-5.5-14.3-17.4-13.6-33.8c0.7-15.8,6.5-34,16.4-51.2s22.7-31.3,36.1-39.8
