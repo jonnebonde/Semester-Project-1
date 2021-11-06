@@ -36,7 +36,7 @@
 @media (max-width: 1379px) {
 
     :root {
-        --fs-professor: 1.8rem;
+        --fs-professor: 1.5rem;
     }
     
 }
@@ -60,7 +60,7 @@
         --fs-h1: 2rem;
         --fs-h2: 1.6rem;
         --fs-smlogo: 2rem;
-        --fs-professor: 1.8rem;
+        --fs-professor: 1.2rem;
     }
 }
 
@@ -71,9 +71,9 @@
         --fs-big: 0.8rem;
         --fs-title: 1.1rem;
         --fs-medium: 1.125rem;
-        --fs-h1: 3rem;
-        --fs-h2: 2rem;
-        --fs-smlogo: 3rem;
+        --fs-h1: 1.8rem;
+        --fs-h2: 1.4rem;
+        --fs-smlogo: 1.6rem;
     }
 }
 /**  end for media queries for fonts only **/
