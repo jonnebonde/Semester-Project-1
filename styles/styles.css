@@ -43,7 +43,7 @@
 
 @media (max-width: 1250px) {
     :root {
-        --fs-big: 2rem;
+        --fs-big: 1.7rem;
         --fs-title: 1.4rem;
         --fs-medium: 1.125rem;
         --fs-h1: 3rem;
@@ -54,7 +54,7 @@
 
 @media (max-width: 1050px) {
     :root {
-        --fs-big: 2.3rem;
+        --fs-big: 1.5rem;
         --fs-title: 1.4rem;
         --fs-medium: 1.125rem;
         --fs-h1: 3rem;
@@ -69,7 +69,7 @@
 
 @media (max-width: 600px) {
     :root {
-        --fs-big: 1.3rem;
+        --fs-big: 0.8rem;
         --fs-title: 1.1rem;
         --fs-medium: 1.125rem;
         --fs-h1: 3rem;
@@ -425,84 +425,55 @@ h3 {
 
 /** visit-html stop **/
 
-/** exhibitions.html start **/
 
+/** exhibitions.html & specialevents.html start **/
 
-.exhibitions_group {
+.exhibitions_group,
+.special_events_group {
     width: 70%;
     margin: auto;
     padding-top: 20px;
 }
 
-.exhibitions_group p {
+.exhibitions_group p,
+.special_events_group p {
     font-size: var(--fs-medium);
     color: var(--white);
     padding: 20px;
 }
 
-.exhibitions_group img {
+.exhibitions_group img,
+.special_events_group img {
     display: block;
     width: 45%;
     height: auto;
-
 }
 
 .cosmology,
 .evolution,
 .biology_medicine,
 .robotics_AI,
-.ecology {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background: var(--blue);
-    width: 100%;
-    margin: 20px 0px;
-    
-}
-
-/** exhibitions.html stop **/
-
-/**  specialevents.html start **/
-
-.special_events_group {
-    width: 80%;
-    margin: auto;
-}
-
-.special_events_group p {
-    font-size: var(--fs-medium);
-    color: var(--yellow);
-    padding: 20px;
-}
-
-.special_events_group img {
-    width: 45%;
-    height: auto;
-
-}
-
+.ecology,
 .professor,
 .night_museum,
 .Energetica {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     background: var(--blue);
     width: 100%;
-    margin: 20px 0px;
-    
+    margin: 20px 0px; 
 }
 
+/**  Exhibitions.html & specialevents.html stop **/
 
-/**  specialevents.html stop **/
 
 /** help_us.html start **/
 
 .help_us_containers {
     display: flex;
     justify-content: center;
-    align-items: center;
-    width: 90%;
+    width: 70%;
     margin: auto;
 }
 
@@ -512,17 +483,14 @@ h3 {
      margin: 10px;
      padding: 20px;
      font-size: var(--fs-medium);
-     color: var(--yellow);
-     background-color: var(--blue);
-     
-                       
+     color: var(--white);
+     background-color: var(--blue);          
 }
 
 .internship h3,
 .volunteer h3,
 .support h3 {
     margin: 10px;
-
 }
 
 .help-us-cta {
@@ -535,15 +503,13 @@ h3 {
     text-decoration: none;
     font-size: var(--fs-medium);
     color: var(--blue);
-    background-color: var(--yellow);
+    background-color: var(--white);
     padding: 10px 30px;
 }
 
 .help-us-cta a:hover {
-    color: var(--yellow);
-    background-color: var(--blue);
-    opacity: 100%;
-    
+    color: var(--white);
+    background-color: var(--blue);    
 }
 
 
@@ -556,17 +522,18 @@ h3 {
     align-items: center;
     justify-content: center;
     background-color: var(--blue);
-    width: 90%;
+    width: 70%;
     margin: auto;
 }
 
 .about_container p{
-    color: var(--yellow);
+    color: var(--white);
     font-size: var(--fs-medium);
     padding: 30px;
 }
 
 .about_container img{
+    display: block;
     width: 40%;
     height: auto;
 }
@@ -581,7 +548,6 @@ h3 {
     align-items: center;
     background-color: var(--blue);
     width: 450px;
-    margin: auto;
 }
 
 .contact_label {
@@ -589,14 +555,14 @@ h3 {
     justify-content: center;
     align-items: center;
     width: 100%;
-    color: var(--yellow);
+    color: var(--white);
     font-size: var(--fs-medium);
     padding: 10px;
 }
 
 .contact_input {
     border: none;
-    color: var(--yellow);
+    color: var(--black);
     font-size: var(--fs-medium);
     height: 40px;
     width: 400px;
@@ -605,14 +571,14 @@ h3 {
 .contact_label_message {
     display: flex;
     justify-content: center;
-    color: var(--yellow);
+    color: var(--white);
     font-size: var(--fs-medium);
     padding: 10px;
 }
 
 .contact_input_message {
     border: none;
-    color: var(--yellow);
+    color: var(--black);
     font-size: var(--fs-medium);
     height: 100px;
     width: 400px;
@@ -626,12 +592,12 @@ h3 {
     text-decoration: none;
     font-size: var(--fs-medium);
     color: var(--blue);
-    background-color: var(--);
+    background-color: var(--white);
     padding: 10px 30px;
 }
 
 .contact_submit a:hover {
-    color: var(--yellow);
+    color: var(--white);
     background-color: var(--blue);
     opacity: 100%;
 }
@@ -821,11 +787,12 @@ footer {
 .about_container {
     display: flex;
     flex-direction: column;
-    width: 60%;
+    width: 70%;
 }
 
 .about_container img {
-    width: 80%;
+    display: block;
+    width: 70%;
 }
 
   }
@@ -841,14 +808,14 @@ footer {
 
 }
 
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 1200px) {
     
     .header {
-        height: 15vw;
+        height: auto;
     }
 
     .logo {
-        width: 14vw;
+        width: 10vw;
     }
    
     .hamburger,
@@ -918,21 +885,19 @@ footer {
 
 @media (max-width: 1000px) {
 
-    
+    .about_container {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+    }
 
-.about_container {
-    display: flex;
-    flex-direction: column;
-    width: 90%;
-}
+    .about_container p{
+        padding: 10px 20px;
+    }
 
-.about_container p{
-    padding: 10px 20px;
-}
-
-.about_container img {
-    width: 100%;
-}
+    .about_container img {
+        width: 100%;
+    }
 
 }
 
@@ -960,7 +925,8 @@ footer {
 
 @media screen and (max-width: 800px) {
     
-    .exhibitions_group {
+    .exhibitions_group,
+    .special_events_group {
         grid-template-columns: 1fr;
         grid-template-rows: auto;
     }
@@ -970,16 +936,10 @@ footer {
         grid-column-end: 1;
     }
 
-        
-
-
     .help_us_containers {
         width: 100%;
-        
     }
 }
-
-
 
 @media screen and (max-width: 590px) {
 
@@ -989,7 +949,6 @@ footer {
         grid-template-columns: 1fr;
         grid-template-rows: auto;
         grid-gap: 20px;
-        
       }
 
     .grid-container {
@@ -1092,7 +1051,8 @@ footer {
     }
 
     .contact_form {
-        width: 90%;
+        width: 100%;
+        margin-top: 40px;
     }
 
     .contact_input {
