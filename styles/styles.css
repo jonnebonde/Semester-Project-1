@@ -74,6 +74,7 @@
         --fs-h1: 1.4rem;
         --fs-h2: 1.2rem;
         --fs-smlogo: 1.4rem;
+        --fs-h3: 1.1rem;
     }
 }
 /**  end for media queries for fonts only **/
@@ -870,7 +871,7 @@ footer {
     }
 
     .flex_wrap {
-        width: 100%;
+        width: 80%;
         margin: auto;
     }
     .special_events_cta, .exhibitions_cta, .visit_us_cta, .help_us_cta {
@@ -925,7 +926,6 @@ footer {
     .special_events_cta, .exhibitions_cta, .visit_us_cta, .help_us_cta {
         flex: 100%;
         max-width: 38%;
-        
     }
 
     .exhibitions_group,
@@ -954,12 +954,6 @@ footer {
         grid-column-start: 1;
         grid-column-end: 1;
     }
-
-    .exhibitions_group p,
-    .special_events_group p {
-        display: none;
-    }
-
 
     .help_us_containers {
         width: 100%;
@@ -1065,8 +1059,18 @@ footer {
 
 @media screen and (max-width: 500px) {
    
-   .main_ctas img {
-       height: 100px;
+    .flex_wrap,
+    .grid-container,
+    .exhibitions_group,
+    .special_events_group,
+    .help_us_containers,
+    .about_containers {
+        width: 90%;
+    }
+
+   .visit_us_cta,
+   .help_us_cta {
+       display: none;
    }
 
     footer {
