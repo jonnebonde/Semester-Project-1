@@ -1058,12 +1058,25 @@ footer {
     .special_events_cta, .exhibitions_cta, .visit_us_cta, .help_us_cta {
         flex: 100%;
         max-width: 40%;
+
     }
 
 }
 
 @media screen and (max-width: 500px) {
    
+   .main_ctas img {
+       height: 100px;
+   }
+
+        
+        
+    }
+
+
+
+
+
     footer {
         background: var(--blue);
         width: 100%;
