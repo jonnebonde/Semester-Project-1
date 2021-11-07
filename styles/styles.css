@@ -1,5 +1,5 @@
 :root {
-
+    /**  Font-family  **/
     --font: 'Lato', sans-serif ;
 
     /** color **/
@@ -8,8 +8,7 @@
     --blue: #251977;
     --yellow: #FEC814;
     --white: #ffff;
-    --font-family: ;
-
+    
     /** font sizes **/
     
     --fs-big: 2.5rem;
@@ -23,6 +22,7 @@
 }
 
 /**  start for media queries for fonts only **/
+
 @media (max-width: 1500px) {
     :root {
         --fs-big: 2.2rem;
@@ -38,7 +38,6 @@
     :root {
         --fs-professor: 1.5rem;
     }
-    
 }
 
 @media (max-width: 1250px) {
@@ -48,7 +47,6 @@
         --fs-medium: 1.125rem;
         --fs-h1: 2.2rem;
         --fs-h2: 1.8rem;
-        
     }
 }
 
@@ -64,8 +62,6 @@
     }
 }
 
-
-
 @media (max-width: 600px) {
     :root {
         --fs-big: 0.8rem;
@@ -77,13 +73,13 @@
         --fs-h3: 1.1rem;
     }
 }
-/**  end for media queries for fonts only **/
 
+/**  end for media queries for fonts only **/
 
 * {
     margin:0;
     padding: 0;
-    }
+}
 
 body {
     display: flex;
@@ -91,7 +87,7 @@ body {
     justify-content: space-between;
     align-items: center;
     height: 100vh;
-    }
+}
     
 /** index.html start **/
 
@@ -108,7 +104,6 @@ a {
 
 .logo {
     width: 5vw;
-
 } 
 
 .header {
@@ -130,7 +125,6 @@ a {
 .navlogo_title p {
     font-size: var(--fs-big);
     color: var(--white);
-
 }
 
 .navigation {
@@ -150,7 +144,6 @@ a {
 
 .menu li {
     list-style: none;
-
 }
 
 .menu li a {
@@ -189,7 +182,6 @@ a {
     background: var(--white);
     border-radius: 10px;
     transition: 0.1s;
-
 }
 
 .hamburger:before {
@@ -234,13 +226,11 @@ a {
 
 .navigation input:checked ~ .menu {
     right: 0;
-
 }
 
 .front_img img {
     width: 100%;
     max-height: 300px;
-    
 }
 
 .flex_wrap {
@@ -264,7 +254,6 @@ main
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
-
 }
 
 .special_events_cta, 
@@ -274,14 +263,12 @@ main
     position: relative;
     flex: 1;
     margin: 10px 10px;
-   
 }
 
 .explore {
     position: relative;
     flex: 1;
     margin: 20px;
-    
 }
 
 .explore_for_kids, 
@@ -302,28 +289,23 @@ main
     width: 100%;
     height: 100%;
     display: block;
-   
 }
 
 .main_ctas a p {
-    
     font-size: var(--fs-title);
     font-weight: bold;
     text-align: center;
     padding: 20px 0;
-    
 }
 
 .main_ctas img {
     width: auto;
     display: block;
-
 }
 
 .main_ctas :hover{
     color: var(--blue);
     background-color: var(--white);
-    
 }
 
 .special_events_cta img,
@@ -338,8 +320,6 @@ h1 {
     background: var(--blue);
     color: var(--white);
     font-size: var(--fs-h1);
-    
-    
 }
 
 h2 {
@@ -347,7 +327,6 @@ h2 {
     color: var(--white);
     font-size:var(--fs-h2);
     padding: 30px;
-
 }
 
 h3 {
@@ -361,7 +340,6 @@ h3 {
     font-size: var(--fs-medium);
     color: var(--white);
     padding: 10px;
-
 }
 
 .explore_for_kids,
@@ -373,7 +351,6 @@ h3 {
 }
 
 /** index.html stop **/
-
 
 /** visit.html start **/
 
@@ -430,7 +407,6 @@ h3 {
 
 /** visit-html stop **/
 
-
 /** exhibitions.html & specialevents.html start **/
 
 .exhibitions_group,
@@ -472,7 +448,6 @@ h3 {
 
 /**  Exhibitions.html & specialevents.html stop **/
 
-
 /** help_us.html start **/
 
 .help_us_containers {
@@ -489,7 +464,6 @@ h3 {
 
 .helpus_containers {
     display: flex;
-
 }
 
 .internship,
@@ -633,7 +607,6 @@ h3 {
 
 /** contact-html stop **/
 
-
 /** Footer start **/
 
 footer {
@@ -672,7 +645,6 @@ footer {
     padding: 3px;
 }
 
-
 /** Footer stop **/
 
 /** media queries **/
@@ -680,8 +652,7 @@ footer {
 @media screen and (min-width: 1920px) {
     main {
         max-width: 1920px;
-        }
- 
+    }
 }
 
 @media (max-width: 1400px) {
@@ -690,26 +661,21 @@ footer {
         justify-content: center;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr ;
-        grid-gap: 20px;
-        
-      }
+        grid-gap: 20px; 
+    }
 
     .grid-item {
         grid-column-start: 1;
         grid-column-end: 3;
         grid-row-start: 1;
         grid-row-end: 1;
-        background-color: var(--blue);
     }  
-
-
 
     .grid-item1 {
         grid-column-start: 1;
         grid-column-end: 1;
         grid-row-start: 2;
         grid-row-end: 2;
-        background-color: var(--blue);
     }
   
     .grid-item2 {
@@ -717,114 +683,99 @@ footer {
         grid-column-end: 2;
         grid-row-start: 2;
         grid-row-end: 2;
-      background-color: var(--blue);
-    
-  }
+    }
   
-.grid-item3{
-    grid-column-start: 1;
-    grid-column-end: 1;
-    grid-row-start: 3;
-    grid-row-end: 6;
-      background-color: var(--blue);
-  }
+    .grid-item3 {
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 3;
+        grid-row-end: 6;
+    }
   
-  .grid-item4 {
-    grid-column-start: 2;
-    grid-column-end: 2;
-    grid-row-start: 3;
-    grid-row-end: 3;
-      background-color: var(--blue);
-  }
+    .grid-item4 {
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 3;
+        grid-row-end: 3;
+    }
   
-  .grid-item5 {
-    grid-column-start: 2;
-    grid-column-end: 2;
-    grid-row-start: 4;
-    grid-row-end: 4;
-    
-      background-color: var(--blue);
-  }
+    .grid-item5 {
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 4;
+        grid-row-end: 4;
+    }
   
-  .grid-item6 {
-    grid-column-start: 2;
-    grid-column-end: 2;
-    grid-row-start: 5;
-    grid-row-end: 5;
+    .grid-item6 {
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 5;
+        grid-row-end: 5;
+    }
 
-      background-color: var(--blue);
-  }
+    .google_map iframe {
+        padding-top: 30px;
+        margin: auto;
+        height: 300px;
+    }
 
-  .google_map iframe {
-      padding-top: 30px;
-    margin: auto;
-    height: 300px;
-  
+    .exhibitions_group,
+    .special_events_group {
+        display: grid;
+        grid-template-columns: 1fr 1fr ;
+        grid-template-rows: auto;
+        grid-gap: 20px;
+    }
+
+    .exhib_h1 {
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+
+    .exhibitions_group img {
+        width: 100%;
+        height: fit-content;
+    }
+
+    .special_events_group img {
+        width: 100%;
+        height: auto;
+    }
+
+    .professor h3 {
+        font-size:var(--fs-professor);
+    }
+
+    .evolution,
+    .robotics_AI,
+    .night_museum {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .cosmology,
+    .biology_medicine,
+    .ecology,
+    .Energetica,
+    .professor {
+        display: flex;
+        align-items: center;
+        flex-direction: column-reverse;
+        margin: 0;
+    }
+
+    .about_container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about_container img {
+        display: block;
+        width: auto;
+    }
 }
-
-.exhibitions_group,
-.special_events_group {
-    display: grid;
-    grid-template-columns: 1fr 1fr ;
-    grid-template-rows: auto;
-    grid-gap: 20px;
-}
-
-.exhib_h1 {
-    grid-column-start: 1;
-    grid-column-end: 3;
-}
-
-.exhibitions_group img {
-    width: 100%;
-    height: fit-content;
-
-}
-
-.special_events_group img {
-    width: 100%;
-    height: auto;
-
-}
-
-.professor h3 {
-    font-size:var(--fs-professor);
-}
-
-
-.evolution,
-.robotics_AI,
-.night_museum
- {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    margin: 0;
-}
-
-.cosmology,
-.biology_medicine,
-.ecology,
-.Energetica,
-.professor {
-    display: flex;
-    align-items: center;
-    flex-direction: column-reverse;
-    margin: 0;
-}
-
-.about_container {
-    display: flex;
-    flex-direction: column;
-    
-}
-
-.about_container img {
-    display: block;
-    width: auto;
-}
-
-  }
 
 
 @media screen and (max-width: 1250px) {
@@ -834,7 +785,6 @@ footer {
         grid-template-columns: 1fr 1fr ;
         grid-gap: 30px;
       }
-
 }
 
 @media screen and (max-width: 1200px) {
@@ -878,13 +828,19 @@ footer {
         width: 80%;
         margin: auto;
     }
-    .special_events_cta, .exhibitions_cta, .visit_us_cta, .help_us_cta {
+
+    .special_events_cta,
+    .exhibitions_cta,
+    .visit_us_cta,
+    .help_us_cta {
         flex: 100%;
         max-width: 40%;
-
     }
 
-    .explore_for_kids, .explore_for_teachers, .explore_for_ysc, .explore_for_researchers {
+    .explore_for_kids, 
+    .explore_for_teachers, 
+    .explore_for_ysc, 
+    .explore_for_researchers {
         flex: 100%;
         max-width: fit-content;
         height: auto;
@@ -896,7 +852,6 @@ footer {
 
     .main_ctas {
         justify-content: center;
-         
     }
 
     .helpus_containers {
@@ -905,7 +860,6 @@ footer {
         align-items: center;
         flex-direction: column;
     }
-
 }
 
 @media (max-width: 1000px) {
@@ -922,12 +876,14 @@ footer {
     .about_container img {
         width: 100%;
     }
-
 }
 
 @media screen and (max-width: 900px) {
 
-    .special_events_cta, .exhibitions_cta, .visit_us_cta, .help_us_cta {
+    .special_events_cta, 
+    .exhibitions_cta, 
+    .visit_us_cta, 
+    .help_us_cta {
         flex: 100%;
         max-width: 38%;
     }
@@ -943,7 +899,6 @@ footer {
     .grid-container {
         width: 90%;
     }
-
 }
 
 @media screen and (max-width: 800px) {
@@ -973,7 +928,6 @@ footer {
         grid-template-rows: auto;
         grid-gap: 10px;
         width: 70%;
-
     }
 
     .grid-item {
@@ -981,7 +935,6 @@ footer {
         grid-column-end: 1;
         grid-row-start: 1;
         grid-row-end: 1;
-        background-color: var(--blue);
     }
   
     .grid-item1 {
@@ -989,7 +942,6 @@ footer {
         grid-column-end: 1;
         grid-row-start: 2;
         grid-row-end: 2;
-        background-color: var(--blue);
     }
     
     .grid-item2 {
@@ -997,7 +949,6 @@ footer {
         grid-column-end: 1;
         grid-row-start: 3;
         grid-row-end: 3;
-        background-color: var(--blue);
     }
 
     .grid-item2 p {
@@ -1009,7 +960,6 @@ footer {
         grid-column-end: 1;
         grid-row-start: 4;
         grid-row-end: 4;
-      background-color: var(--blue);
     }
   
     .grid-item4 {
@@ -1017,7 +967,6 @@ footer {
         grid-column-end: 1;
         grid-row-start: 5;
         grid-row-end: 5;
-      background-color: var(--blue);
     }
     
     .grid-item5 {
@@ -1025,7 +974,6 @@ footer {
         grid-column-end: 1;
         grid-row-start: 6;
         grid-row-end: 6;
-        background-color: var(--blue);
     }
     
     .grid-item6 {
@@ -1033,32 +981,15 @@ footer {
         grid-column-end: 1;
         grid-row-start: 7;
         grid-row-end: 7;
-        background-color: var(--blue);
     }
 
-    .google_map iframe {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-bottom: 20px;
-        height: 250px;
-    }
-
-    .google_map iframe {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-bottom: 20px;
-        height: 150px;
-        width: 150px;
-    }
-
-    .special_events_cta, .exhibitions_cta, .visit_us_cta, .help_us_cta {
+    .special_events_cta, 
+    .exhibitions_cta, 
+    .visit_us_cta, 
+    .help_us_cta {
         flex: 100%;
         max-width: 40%;
-
     }
-
 }
 
 @media screen and (max-width: 500px) {
