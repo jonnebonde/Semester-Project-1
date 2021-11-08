@@ -76,6 +76,8 @@
 
 /**  end for media queries for fonts only **/
 
+/** styles for all pages start **/
+
 * {
     margin:0;
     padding: 0;
@@ -88,7 +90,34 @@ body {
     align-items: center;
     min-height: 100vh;
 }
-    
+
+/** styles for all pages stop **/
+
+/** hover effects start **/
+
+.menu li a:hover,
+.menu li a.active,
+.main_ctas :hover {
+    box-shadow: inset 0 -100px 0 0 var(--white);
+    color: var(--blue);
+    transition: 0.6s;
+}
+
+.help-us-cta a:hover,
+.contact_submit a:hover {
+    box-shadow: inset 0 -100px 0 0 var(--blue);
+    color: var(--white);
+    transition: 0.6s;   
+}
+
+.footer_contact a:hover {
+    text-decoration: underline;
+}
+
+
+
+/** hover effects stop **/
+
 /** index.html start **/
 
 html {
@@ -151,15 +180,10 @@ a {
     text-decoration: none;
     display: block;
     padding: 5px 15px;
+    box-shadow: inset 0 0 0 0 var(--white);
     transition: 0.1s;
     font-size: var(--fs-medium);
     font-weight: semi-bold;
-}
-
-.menu li a:hover,
-.menu li a.active {
-    background: var(--white);
-    color: var(--blue);
 }
 
 .hamburger {
@@ -301,11 +325,6 @@ main
 .main_ctas img {
     width: auto;
     display: block;
-}
-
-.main_ctas :hover{
-    color: var(--blue);
-    background-color: var(--white);
 }
 
 .special_events_cta img,
@@ -493,14 +512,9 @@ h3 {
     font-size: var(--fs-medium);
     color: var(--blue);
     background-color: var(--white);
+    box-shadow: inset 0 0 0 0 var(--white);
     padding: 10px 30px;
 }
-
-.help-us-cta a:hover {
-    color: var(--white);
-    background-color: var(--blue);    
-}
-
 
 /** help_us stop **/
 
@@ -599,12 +613,6 @@ h3 {
     padding: 10px 30px;
 }
 
-.contact_submit a:hover {
-    color: var(--white);
-    background-color: var(--blue);
-    opacity: 100%;
-}
-
 /** contact-html stop **/
 
 /** Footer start **/
@@ -634,7 +642,6 @@ footer {
 }
 
 .social_media_icons {
-    
     margin-right: 10px;
 }
 
