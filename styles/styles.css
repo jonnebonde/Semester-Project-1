@@ -158,7 +158,7 @@ a {
 
 .menu li a:hover,
 .menu li a.active {
-    background: white;
+    background: var(--white);
     color: var(--blue);
 }
 
