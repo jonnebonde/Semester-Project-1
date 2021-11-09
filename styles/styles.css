@@ -83,12 +83,21 @@
     padding: 0;
 }
 
+html {
+    font-family: var(--font);
+    background-color: var(--silver);
+}
+
 body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     min-height: 100vh;
+}
+
+a {
+    text-decoration: none;
 }
 
 /** styles for all pages stop **/
@@ -100,36 +109,23 @@ body {
 .main_ctas :hover {
     box-shadow: inset 0 -100px 0 0 var(--white);
     color: var(--blue);
-    transition: 0.6s;
+    transition: 0.7s;
 }
 
 .help-us-cta a:hover,
 .contact_submit a:hover {
     box-shadow: inset 0 -100px 0 0 var(--blue);
     color: var(--white);
-    transition: 0.6s;   
+    transition: 0.4s;   
 }
 
 .footer_contact a:hover {
     text-decoration: underline;
 }
 
-
-
 /** hover effects stop **/
 
 /** index.html start **/
-
-html {
-    font-family: var(--font);
-    background-color: var(--silver);
-}
-
-a {
-    text-decoration: none;
-}
-
-/** navigation **/
 
 .logo {
     width: 5vw;
