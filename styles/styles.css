@@ -11,12 +11,12 @@
     
     /** font sizes **/
     
-    --fs-big: 2.5rem;
-    --fs-title: 1.8rem;
+    --fs-big: 2rem;
+    --fs-title: 1.4rem;
     --fs-medium: 1.125rem;
     --fs-smlogo: 2rem;
-    --fs-h1: 2.8rem;
-    --fs-h2: 2.3rem;
+    --fs-h1: 2rem;
+    --fs-h2: 1.8rem;
     --fs-h3: 1.6rem;
     --fs-professor:2.2rem;
 }
@@ -25,7 +25,7 @@
 
 @media (max-width: 1500px) {
     :root {
-        --fs-big: 2.2rem;
+        --fs-big: 2rem;
         --fs-title: 1.4rem;
         --fs-medium: 1.125rem;
         --fs-h1: 2.5rem;
@@ -185,7 +185,6 @@ a {
     box-shadow: inset 0 0 0 0 var(--white);
     transition: 0.1s;
     font-size: var(--fs-medium);
-    font-weight: semi-bold;
 }
 
 .hamburger {
@@ -264,10 +263,9 @@ a {
     margin: auto;
 }
 
-main
 .flex_wrap h1 {
-    margin: 10px;
-    padding: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
 }
 
 .main_ctas, 
@@ -277,7 +275,6 @@ main
     width: 100%;
     margin: auto;
     display: flex;
-   
     flex-wrap: wrap;
     align-items: center;
 }
@@ -295,7 +292,6 @@ main
 .help_us_cta {
     position: relative;
     flex: 1;
-    
 }
 
 .explore {
@@ -314,7 +310,6 @@ main
     height: 340px;
 }
 
-
 .main_ctas a {
     background-color: var(--blue);
     color: var(--white);
@@ -326,7 +321,6 @@ main
 
 .main_ctas a p {
     font-size: var(--fs-title);
-    font-weight: bold;
     text-align: center;
     padding: 20px 0;
 }
@@ -363,11 +357,18 @@ h3 {
     font-size: var(--fs-h3);
 }
 
+.explore_container1,
+.explore_container2 {
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+
 .explore_container1 p,
 .explore_container2 p {
     font-size: var(--fs-medium);
     color: var(--white);
-    padding: 10px;
+    margin-bottom: 20px;
 }
 
 .explore_for_kids,
@@ -375,7 +376,8 @@ h3 {
 .explore_for_teachers,
 .explore_for_researchers {
     background-color: var(--blue);
-    margin: 10px;
+    padding: 30px 50px;
+
 }
 
 /** index.html stop **/
