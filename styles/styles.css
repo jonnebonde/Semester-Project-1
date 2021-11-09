@@ -5,7 +5,7 @@
     /** color **/
     --black: #000000;
     --silver: #e2e2e2;
-    --blue: #251977;
+    --blue: #006CC6;
     --yellow: #FEC814;
     --white: #ffff;
     
@@ -86,6 +86,7 @@
 html {
     font-family: var(--font);
     background-color: var(--silver);
+    box-sizing: border-box;
 }
 
 body {
@@ -105,18 +106,23 @@ a {
 /** hover effects start **/
 
 .menu li a:hover,
-.menu li a.active,
-.main_ctas :hover {
+.menu li a.active {
     box-shadow: inset 0 -100px 0 0 var(--white);
     color: var(--blue);
-    transition: 0.7s;
+    transition: 0.4s;
+}
+
+.main_ctas a:hover {
+    box-shadow: inset 0 -400px 0 0 var(--white);
+    color: var(--blue);
+    transition: 0.4s;
 }
 
 .help-us-cta a:hover,
 .contact_submit a:hover {
     box-shadow: inset 0 -100px 0 0 var(--blue);
     color: var(--white);
-    transition: 0.4s;   
+    transition: 0.7s;
 }
 
 .footer_contact a:hover {
@@ -271,9 +277,16 @@ main
     width: 100%;
     margin: auto;
     display: flex;
-    justify-content: center;
+   
     flex-wrap: wrap;
     align-items: center;
+}
+
+.main_ctas {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px 4%;
+    padding: 20px 0;
 }
 
 .special_events_cta, 
@@ -282,7 +295,7 @@ main
 .help_us_cta {
     position: relative;
     flex: 1;
-    margin: 10px 10px;
+    
 }
 
 .explore {
@@ -510,6 +523,7 @@ h3 {
     background-color: var(--white);
     box-shadow: inset 0 0 0 0 var(--white);
     padding: 10px 30px;
+    border: 1px solid var(--white);
 }
 
 /** help_us stop **/
@@ -828,8 +842,7 @@ footer {
     }
 
     .flex_wrap {
-        width: 80%;
-        margin: auto;
+        width: 70%;
     }
 
     .special_events_cta,
@@ -837,7 +850,7 @@ footer {
     .visit_us_cta,
     .help_us_cta {
         flex: 100%;
-        max-width: 40%;
+        max-width: 48%;
     }
 
     .explore_for_kids, 
@@ -854,7 +867,7 @@ footer {
     }
 
     .main_ctas {
-        justify-content: center;
+        justify-content: space-between;
     }
 
     .helpus_containers {
@@ -888,7 +901,7 @@ footer {
     .visit_us_cta, 
     .help_us_cta {
         flex: 100%;
-        max-width: 38%;
+        max-width: 48%;
     }
 
     .exhibitions_group,
@@ -986,12 +999,16 @@ footer {
         grid-row-end: 7;
     }
 
+    .main_ctas img {
+        display: none;
+    }
+
     .special_events_cta, 
     .exhibitions_cta, 
     .visit_us_cta, 
     .help_us_cta {
         flex: 100%;
-        max-width: 40%;
+        max-width: 48%;
     }
 }
 
@@ -1005,11 +1022,6 @@ footer {
     .about_containers {
         width: 90%;
     }
-
-   .visit_us_cta,
-   .help_us_cta {
-       display: none;
-   }
 
     footer {
         background: var(--blue);
