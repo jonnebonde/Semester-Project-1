@@ -85,7 +85,7 @@
 
 html {
     font-family: var(--font);
-    background-color: var(--silver);
+    background-color: var(--white);
     box-sizing: border-box;
 }
 
@@ -106,20 +106,22 @@ a {
 /** hover effects start **/
 
 .menu li a:hover,
-.menu li a.active {
-    box-shadow: inset 0 -100px 0 0 var(--white);
-    color: var(--blue);
-    transition: 0.4s;
+.menu li a.active,
+.help-us-cta a:hover,
+.contact_submit a:hover {
+    box-shadow: inset 0 -100px 0 0 var(--yellow);
+    color: var(--black);
+    transition: 0.6s;
 }
 
 .main_ctas a:hover {
-    box-shadow: inset 0 -400px 0 0 var(--white);
-    color: var(--blue);
-    transition: 0.4s;
+    box-shadow: inset 0 -400px 0 0 var(--yellow);
+    color: var(--black);
+    transition: 0.6s;
 }
 
-.help-us-cta a:hover,
-.contact_submit a:hover {
+help-us-cta a:hover,
+contact_submit a:hover {
     box-shadow: inset 0 -100px 0 0 var(--blue);
     color: var(--white);
     transition: 0.7s;
@@ -346,14 +348,14 @@ h1 {
 
 h2 {
     text-align: center;
-    color: var(--white);
+    color: var(--black);
     font-size:var(--fs-h2);
     padding: 30px;
 }
 
 h3 {
     text-align: center;
-    color: var(--white);
+    color: var(--black);
     font-size: var(--fs-h3);
 }
 
@@ -367,7 +369,7 @@ h3 {
 .explore_container1 p,
 .explore_container2 p {
     font-size: var(--fs-medium);
-    color: var(--white);
+    color: var(--black);
     margin-bottom: 20px;
 }
 
@@ -375,7 +377,7 @@ h3 {
 .explore_for_ysc,
 .explore_for_teachers,
 .explore_for_researchers {
-    background-color: var(--blue);
+    background-color: var(--white);
     padding: 30px 50px;
 
 }
@@ -423,8 +425,8 @@ h3 {
 .grid-item4, 
 .grid-item5, 
 .grid-item6  {
-      background: var(--blue);
-      color: var(--white);   
+      background: var(--white);
+      color: var(--black);   
 }
 
 .google_map iframe {
@@ -449,7 +451,7 @@ h3 {
 .exhibitions_group p,
 .special_events_group p {
     font-size: var(--fs-medium);
-    color: var(--white);
+    color: var(--black);
     padding: 20px;
 }
 
@@ -471,9 +473,10 @@ h3 {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: var(--blue);
+    background: var(--white);
     width: 100%;
     margin: 20px 0px; 
+    border: 1px solid ;
 }
 
 /**  Exhibitions.html & specialevents.html stop **/
@@ -502,8 +505,8 @@ h3 {
      margin: 10px;
      padding: 20px;
      font-size: var(--fs-medium);
-     color: var(--white);
-     background-color: var(--blue);          
+     color: var(--black);
+     background-color: var(--white);          
 }
 
 .internship h3,
@@ -521,11 +524,10 @@ h3 {
 .help-us-cta a {
     text-decoration: none;
     font-size: var(--fs-medium);
-    color: var(--blue);
-    background-color: var(--white);
+    color: var(--white);
+    background-color: var(--blue);
     box-shadow: inset 0 0 0 0 var(--white);
     padding: 10px 30px;
-    border: 1px solid var(--white);
 }
 
 /** help_us stop **/
@@ -547,12 +549,12 @@ h3 {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--blue);
+    background-color: var(--white);
     margin: auto;
 }
 
 .about_container p{
-    color: var(--white);
+    color: var(--black);
     font-size: var(--fs-medium);
     padding: 30px;
 }
@@ -575,7 +577,7 @@ h3 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: var(--blue);
+    background-color: var(--white);
     width: 450px;
 }
 
@@ -583,7 +585,7 @@ h3 {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: var(--white);
+    color: var(--black);
     font-size: var(--fs-medium);
     padding: 10px;
     width: 100%;
@@ -595,6 +597,7 @@ h3 {
     font-size: var(--fs-medium);
     height: 40px;
     width: 380px;
+    border: 2px solid;
 }
 
 .contact_label_message {
@@ -603,6 +606,7 @@ h3 {
     color: var(--white);
     font-size: var(--fs-medium);
     padding: 10px;
+    
 }
 
 .contact_input_message {
@@ -611,6 +615,7 @@ h3 {
     font-size: var(--fs-medium);
     height: 100px;
     width: 380px;
+    border: 2px solid;
 }
 
 .contact_submit {
@@ -620,8 +625,8 @@ h3 {
 .contact_submit a{
     text-decoration: none;
     font-size: var(--fs-medium);
-    color: var(--blue);
-    background-color: var(--white);
+    color: var(--white);
+    background-color: var(--blue);
     padding: 10px 30px;
 }
 
@@ -1005,6 +1010,11 @@ footer {
         display: none;
     }
 
+    .main_ctas a:hover {
+        box-shadow: inset 0 -80px 0 0 var(--yellow);
+        color: var(--black);
+        transition: 0.5s;
+    }
     .special_events_cta, 
     .exhibitions_cta, 
     .visit_us_cta, 
