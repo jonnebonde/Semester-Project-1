@@ -6,7 +6,7 @@
     --black: #000000;
     --silver: #e2e2e2;
     --blue: #0069A3;
-    --yellow: #FEC814;
+    --red: #D24E36;
     --white: #ffff;
     
     /** font sizes **/
@@ -311,11 +311,11 @@ a {
 }
 
 .main_ctas p {
-    border: 1px solid var(--blue);
+    border: 1px solid var(--red);
 }
 
 .main_ctas a {
-    background-color: var(--yellow);
+    background-color: var(--red);
     color: var(--white);
     text-decoration: none;
     width: 100%;
