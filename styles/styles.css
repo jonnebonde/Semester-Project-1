@@ -315,7 +315,7 @@ a {
 }
 
 .main_ctas a {
-    background-color: var(--blue);
+    background-color: var(--yellow);
     color: var(--white);
     text-decoration: none;
     width: 100%;
