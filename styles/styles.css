@@ -310,10 +310,6 @@ a {
     height: 340px;
 }
 
-.main_ctas p {
-    border: 1px solid var(--red);
-}
-
 .main_ctas a {
     background-color: var(--red);
     color: var(--white);
