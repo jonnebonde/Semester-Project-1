@@ -387,7 +387,7 @@ h3 {
 
 .grid-container p {
     font-size: var(--fs-medium);
-    padding: 20px;
+    padding: 30px 50px;
 }
 
 .grid-container h3 {
@@ -436,7 +436,7 @@ h3 {
 .special_events_group p {
     font-size: var(--fs-medium);
     color: var(--black);
-    padding: 20px;
+    padding: 30px 50px;
 }
 
 .exhibitions_group img,
@@ -486,7 +486,7 @@ h3 {
 .volunteer,
 .support {
      margin: 10px;
-     padding: 20px;
+     padding: 30px 50px;
      font-size: var(--fs-medium);
      color: var(--black);
      background-color: var(--white);          
@@ -539,7 +539,7 @@ h3 {
 .about_container p{
     color: var(--black);
     font-size: var(--fs-medium);
-    padding: 30px;
+    padding: 30px 50px;
 }
 
 .about_container img{
