@@ -341,6 +341,7 @@ h3 {
     text-align: center;
     color: var(--black);
     font-size: var(--fs-h3);
+    padding-top: 20px;
 }
 
 .explore_container1,
