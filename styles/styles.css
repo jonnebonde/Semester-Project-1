@@ -262,6 +262,7 @@ a {
     justify-content: space-between;
     gap: 20px 4%;
     padding: 20px 0;
+    filter: drop-shadow(1px 1px 1px var(--black));
 }
 
 .main_ctas a {
@@ -503,6 +504,7 @@ h3 {
     display: flex;
     justify-content: center;
     padding: 20px;
+    filter: drop-shadow(1px 1px 1px var(--black));
 }
 
 .help-us-cta a {
@@ -607,6 +609,7 @@ h3 {
 
 .contact_submit {
     padding: 30px;
+    filter: drop-shadow(1px 1px 1px var(--black));
 }
 
 .contact_submit a{
