@@ -217,13 +217,13 @@ a {
     
 .navigation input:checked ~ .hamburger:before {
     top: 0;
-    transform: rotate(135deg);
+    transform: rotate(45deg);
     width: 30px;
 }
 
 .navigation input:checked ~ .hamburger:after {
     top: 0;
-    transform: rotate(-135deg);
+    transform: rotate(-45deg);
     width: 30px;
 }
 
@@ -830,9 +830,9 @@ footer {
         top: 0;
         right: -340px;
         background: var(--blue);
-        width: 110px;
+        width: 130px;
         height: 100%;
-        padding-top: 80px;
+        padding-top: 90px;
     }
 
     .menu li {
