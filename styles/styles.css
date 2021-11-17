@@ -276,7 +276,7 @@ a {
 .main_ctas a:hover {
     box-shadow: inset 0 -400px 0 0 var(--white);
     color: var(--red);
-    transition: 0.4s;
+    transition: 0.3s;
 }
 
 .main_ctas a p {
