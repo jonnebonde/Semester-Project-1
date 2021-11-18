@@ -314,8 +314,6 @@ a {
     height: 340px;
 }
 
-
-
 .special_events_cta img,
 .exhibitions_cta img,
 .visit_us_cta img,
@@ -486,6 +484,22 @@ footer {
     height: auto;
 }
 
+@-moz-document url-prefix() {
+    .exhibitions_group img,
+    .special_events_group img {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .robotics_AI img,
+    .Energetica img {
+        width: auto;
+        height: auto;
+    }
+
+  }
+
 .cosmology,
 .evolution,
 .biology_medicine,
@@ -592,7 +606,17 @@ footer {
 .about_container img{
     display: block;
     width: 40%;
-    height: auto;
+    height: fit-content;
+}
+
+@-moz-document url-prefix() {
+    .about_container img{
+        display: block;
+        width: auto;
+        height: fit-content;
+
+    }
+
 }
     
 /** about.html stop **/
