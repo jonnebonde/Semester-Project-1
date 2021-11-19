@@ -28,15 +28,15 @@
         --fs-big: 2rem;
         --fs-title: 1.4rem;
         --fs-medium: 1.125rem;
-        --fs-h1: 2.5rem;
-        --fs-h2: 2rem;    
+        --fs-h1: 2rem;
+        --fs-h2: 1.8rem;    
     }
 }
 
 @media (max-width: 1379px) {
 
     :root {
-        --fs-professor: 1.5rem;
+        --fs-professor: 1.4rem;
     }
 }
 
@@ -45,8 +45,8 @@
         --fs-big: 1.7rem;
         --fs-title: 1.2rem;
         --fs-medium: 1.125rem;
-        --fs-h1: 2.2rem;
-        --fs-h2: 1.8rem;
+        --fs-h1: 1.8rem;
+        --fs-h2: 1.6rem;
     }
 }
 
@@ -55,10 +55,8 @@
         --fs-big: 1.5rem;
         --fs-title: 1.3rem;
         --fs-medium: 1.125rem;
-        --fs-h1: 2rem;
-        --fs-h2: 1.6rem;
         --fs-smlogo: 2rem;
-        --fs-professor: 1.2rem;
+        --fs-professor: 1.1rem;
     }
 }
 
@@ -581,7 +579,7 @@ footer {
 .about_containers {
     display: flex;
     flex-direction: column;
-    width: 70%;
+    width: 80%;
     margin: auto;
 }
 
@@ -600,7 +598,7 @@ footer {
 .about_container p{
     color: var(--black);
     font-size: var(--fs-medium);
-    padding: 30px 50px;
+    padding: 20px 25px;
 }
 
 .about_container img{
@@ -809,9 +807,20 @@ footer {
         margin: 0;
     }
 
+    .about_containers {
+        width: 100%;
+    }
+
     .about_container {
         display: flex;
         flex-direction: column;
+        text-overflow: inherit;
+    }
+
+
+    .about_container p {
+        max-width: 500px;
+        
     }
 
     .about_container img {
@@ -905,6 +914,10 @@ footer {
 }
 
 @media (max-width: 1000px) {
+
+    .about_containers {
+        width: 90%;
+    }
 
     .about_container {
         display: flex;
