@@ -381,6 +381,12 @@ footer {
 .footer_contact a {
     color: var(--white);
     font-size: var(--fs-medium);
+    background-image: linear-gradient(white, white);
+    background-size: 0% 2px;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    transition: background-size 200ms ease-in-out;
+
 }
 
 .footer_contact p {
@@ -389,7 +395,7 @@ footer {
 }
 
 .footer_contact a:hover {
-    text-decoration: underline;
+    background-size: 100% 2px;
 }
 
 .social_media_icons {
